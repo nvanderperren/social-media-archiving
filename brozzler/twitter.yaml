@@ -1,0 +1,13 @@
+id: twitter # wijzig dit in de id die je voor deze crawl wil gebruiken, bv. 20201202_twitter_packed
+ignore_robots: true
+max_claimed_sites: 1
+warcprox_meta:
+  # warc-prefix bepaalt de prefix van de bestandsnaam
+  warc-prefix: twitter # wijzig dit naar naam van keuze, bv. 20201202_twitter_packed
+  stats:
+    buckets:
+      - id_stats # wijzig id in de id die je in de eerste regel gegeven hebt
+seeds:
+  # wijzig in onderstaande URL's twitter-user in de naam van de twitter-gebruiker/stream, bv. PACKEDvzw
+  - url: https://twitter.com/twitter-user # Twitter timeline
+  - url: https://twitter.com/twitter-user/with_replies # pagina met ook alle replies
