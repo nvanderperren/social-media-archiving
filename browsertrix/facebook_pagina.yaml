@@ -1,0 +1,22 @@
+crawls:
+  - name: facebookpagina # wijzig dit in een naam voor de crawl, bv. 20201202_facebook_meeomoo
+    crawl_type: single-page
+    num_browsers: 1
+
+    coll: facebookpagina  # browsertrix werkt met collecties. geef dit dezelfde naam als bij name (lijn 2)
+    mode: record # website wordt opgenomen
+
+    seed_urls:
+    # wijzig in onderstaande URL's facebook-page door de naam van de pagina
+    # de eerste URL is de belangrijkste. de rest kan je verwijderen indien je die gegevens niet belangrijk vindt
+      - https://www.facebook.com/facebook-page # hoofdpagina fb pagina
+      - https://www.facebook.com/facebook-page/about/?ref_page=internal # de "about"-pagina
+      - https://www.facebook.com/facebook-page/photos/?ref_page=internal # overzichtspagina's met foto's
+      - https://www.facebook.com/facebook-page/reviews/?ref_page=internal # overzichtspagina met recensies 
+      - https://www.facebook.com/facebook-page/videos/?ref_page=internal # overzichtspagina met video's
+      - https://www.facebook.com/facebook-page/community/?ref_page=internal # pagina met posts waarin het account getagged werd
+      - https://www.facebook.com/facebook-page/events/?ref_page=internal # overzichtspagina met evenementen 
+    
+    behavior_max_time: 600 # ook hier een limit om infinite crawl te vermijden
+
+    cache: never

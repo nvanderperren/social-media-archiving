@@ -9,7 +9,7 @@ warcprox_meta:
     buckets:
       - id_stats # wijzig id in de id die je in de eerste regel gegeven hebt
 seeds:
-  - url: https://www.facebook.com/gebruikersnaam # Wijzig gebruikersnaam in de naam van de pagina of account, bv. meemoo.be
+  - url: https://www.facebook.com/facebook-user # Wijzig facebook-user in de naam van de pagina of account, bv. meemoo.be
     username: example@example.net # vul een e-mailadres van een facebookaccount in. 
     # dit moet een account zijn dat pagina kan bekijken, maar hoeft niet de "owner" te zijn
     password: wachtwoord # vul hier het wachtwoord in van het facebookaccount
