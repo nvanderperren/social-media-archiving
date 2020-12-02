@@ -1,6 +1,7 @@
 id: twitter # wijzig dit in de id die je voor deze crawl wil gebruiken, bv. 20201202_twitter_packed
 ignore_robots: true
 max_claimed_sites: 1
+time_limit: 900 # tijdslimiet om een infinite crawl te vermijden
 warcprox_meta:
   # warc-prefix bepaalt de prefix van de bestandsnaam
   warc-prefix: twitter # wijzig dit naar naam van keuze, bv. 20201202_twitter_packed

@@ -13,3 +13,4 @@ seeds:
     username: example@example.net # vul een e-mailadres van een facebookaccount in. 
     # dit moet een account zijn dat pagina kan bekijken, maar hoeft niet de "owner" te zijn
     password: wachtwoord # vul hier het wachtwoord in van het facebookaccount
+    time_limit: 1800 # tijdslimiet om een infinite crawl te vermijden
