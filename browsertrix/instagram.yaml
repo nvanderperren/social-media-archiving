@@ -12,6 +12,6 @@ crawls:
       - https://www.instagram.com/instagram-user/channel/ # indien de gebruiker filmpjes heeft
       - https://www.instagram.com/instagram-user/tagged/ # als de gebruiker getagged geweest is in andere posts
 
-    behavior_max_time: 600 # ook hier een limit om infinite crawl te vermijden
+    behavior_max_time: 600 # time limit om infinite crawl te vermijden
 
-    cache: never
+    cache: default
