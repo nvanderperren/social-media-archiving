@@ -1,0 +1,19 @@
+# configuratiebestand voor gebruik browsertrix in combinatie met snscrape
+crawls:
+  - name: twitter  # wijzig dit in een naam voor de crawl, bv. 20201202_twitter_meemoo_be
+    crawl_type: single-page
+    num_browsers: 1
+
+    coll: twitter # browsertrix werkt met collecties. geef dit dezelfde naam als bij name (lijn 2)
+    mode: record # website wordt opgenomen
+
+    behavior_max_time: 30 # time limit om infinite crawl te vermijden
+
+    cache: default
+
+    seed_urls:
+       # wijzig in onderstaande URL's twitter-user door de juiste naam van de twitter gebruiker
+      - https://twitter.com/twitter-user # Twitter timeline
+      - https://twitter.com/twitter-user/with_replies # pagina met ook alle replies
+      - https://twitter.com/twitter-user/media # alle opgeladen media door gebruiker
+      - https://twitter.com/twitter-user/likes # alle berichten die leuk gevonden werden door gebruiker

@@ -1,0 +1,19 @@
+# configuratiebestand voor gebruik browsertrix in combinatie met snscrape
+crawls:
+  - name: instagram  # wijzig dit in een naam voor de crawl, bv. 20201202_instagram_vlaparl
+    crawl_type: single-page
+    num_browsers: 1
+
+    coll: instagram # browsertrix werkt met collecties. geef dit dezelfde naam als bij name (lijn 2)
+    mode: record # website wordt opgenomen
+
+    behavior_max_time: 30 # time limit om infinite crawl te vermijden
+
+    cache: default
+
+    seed_urls:
+      # wijzig in onderstaande URL's instagram-user door de juiste naam van de instagram gebruiker
+      - https://www.instagram.com/instagram-user/  # overzichtspagina
+      - https://www.instagram.com/instagram-user/channel/ # indien de gebruiker filmpjes heeft
+      - https://www.instagram.com/instagram-user/tagged/ # als de gebruiker getagged geweest is in andere posts
+
