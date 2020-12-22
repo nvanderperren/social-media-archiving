@@ -1,0 +1,30 @@
+# pywb config file
+# ========================================
+#
+
+collections:
+    all: $all
+    live: $live
+
+collection_root: collections
+archive_paths: archive
+index_paths: indexes
+static_path: static
+
+# Settings for each collection
+use_js_obj_proxy: true
+
+# Memento support, enable
+enable_memento: false
+
+# Replay content in an iframe
+framed_replay: false
+
+# Recorder
+recorder:
+    source_coll: live
+    rollover_size: 10000000
+    rollover_idle_secs: 3600
+    filename_template: rec-{timestamp}.warc.gz
+
+enable_auto_fetch: true
