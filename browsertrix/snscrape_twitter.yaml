@@ -7,7 +7,7 @@ crawls:
     coll: twitter # browsertrix werkt met collecties. geef dit dezelfde naam als bij name (lijn 3)
     mode: record # website wordt opgenomen
 
-    behavior_max_time: 30 # time limit om infinite crawl te vermijden
+    behavior_max_time: 15 # time limit om infinite crawl te vermijden
 
     cache: default
 
