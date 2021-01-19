@@ -21,4 +21,5 @@ crawls:
       - https://www.facebook.com/facebook-page/videos/?ref_page=internal # overzichtspagina met video's
       - https://www.facebook.com/facebook-page/community/?ref_page=internal # pagina met posts waarin het account getagged werd
       - https://www.facebook.com/facebook-page/events/?ref_page=internal # overzichtspagina met evenementen 
-  
+      # voeg hieronder de URL's verkregen via snscrape toe
+      

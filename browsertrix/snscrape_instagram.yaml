@@ -16,4 +16,5 @@ crawls:
       - https://www.instagram.com/instagram-user/  # overzichtspagina
       - https://www.instagram.com/instagram-user/channel/ # indien de gebruiker filmpjes heeft
       - https://www.instagram.com/instagram-user/tagged/ # als de gebruiker getagged geweest is in andere posts
+      # voeg hieronder de URL's verkregen via snscrape toe
 
