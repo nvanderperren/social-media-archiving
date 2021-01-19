@@ -17,3 +17,6 @@ crawls:
       - https://twitter.com/twitter-user/with_replies # pagina met ook alle replies
       - https://twitter.com/twitter-user/media # alle opgeladen media door gebruiker
       - https://twitter.com/twitter-user/likes # alle berichten die leuk gevonden werden door gebruiker
+      - https://twitter.com/twitter-user/following # alle gebruikers die door de gebruiker gevolgd wordt
+      - https://twitter.com/twitter-user/followers # alle gebruikers die de gebruiker volgen
+      # voeg hieronder de URL's verkregen via snscrape toe
