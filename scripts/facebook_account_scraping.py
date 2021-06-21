@@ -1,8 +1,10 @@
+#!usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 from argparse import ArgumentParser
 from datetime import date, datetime
 from facebook_scraper import get_posts
 from json import dumps, JSONEncoder
-from sys import argv
 
 class DateTimeEncoder(JSONEncoder):
     def default(self, o):

@@ -4,7 +4,6 @@
 from datetime import date, datetime
 from facebook_scraper import get_posts
 from json import dumps, JSONEncoder
-from sys import argv
 from argparse import ArgumentParser
 
 class DateTimeEncoder(JSONEncoder):
