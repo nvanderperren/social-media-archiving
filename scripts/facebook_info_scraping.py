@@ -1,5 +1,11 @@
 #!usr/bin/env python3
 # -*- coding: utf-8 -*-
+#
+# @author Nastasia Vanderperren
+#
+# get the info of a fb page, group or account
+# returns a json file
+#
 
 from argparse import ArgumentParser
 from facebook_scraper import get_group_info, get_profile, get_page_info

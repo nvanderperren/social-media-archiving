@@ -1,5 +1,12 @@
 #!usr/bin/env python3
 # -*- coding: utf-8 -*-
+#
+# @author Nastasia Vanderperren
+#
+# get urls of all posts of a facebook page, account or groupe 
+# in order to crawl it with wget or browsertrix
+#
+
 
 from datetime import date, datetime
 from facebook_scraper import get_posts
@@ -46,10 +53,11 @@ def get_fb_urls(args):
 
     write_urls(urls, account, crawler)
 
-parser = ArgumentParser()
-parser.add_argument('--account', '-a', help="name of the account", required=True)
-parser.add_argument('--cookies', help="cookie file for getting data of a private account", required=False)
-parser.add_argument('--group', help="account is a group", action='store_true')
-parser.add_argument('--crawler', choices=['browsertrix', 'wget'], required=True)
-args = parser.parse_args()
-get_fb_urls(args)
+if __name__ == '__main__':
+    parser = ArgumentParser()
+    parser.add_argument('--account', '-a', help="name of the account", required=True)
+    parser.add_argument('--cookies', help="cookie file for getting data of a private account", required=False)
+    parser.add_argument('--group', help="account is a group", action='store_true')
+    parser.add_argument('--crawler', choices=['browsertrix', 'wget'], required=True)
+    args = parser.parse_args()
+    get_fb_urls(args)

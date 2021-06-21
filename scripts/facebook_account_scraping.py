@@ -1,5 +1,11 @@
 #!usr/bin/env python3
 # -*- coding: utf-8 -*-
+#
+# @author Nastasia Vanderperren
+#
+# get posts of a fb page, group or account
+# returns a json lines files with a line for each post
+#
 
 from argparse import ArgumentParser
 from datetime import date, datetime
@@ -34,12 +40,12 @@ def get_fb_posts(args):
         posts = get_posts(account=account, cookies=cookies, options={"comments": comments, "reactors": reactions})
     write_posts(account, posts)
 
-
-parser = ArgumentParser()
-parser.add_argument('--account', '-a', help="name of the account", required=True)
-parser.add_argument('--cookies', help="cookie file for getting data of a private account", required=False)
-parser.add_argument('--reactions', help="extract likes and so from posts", action='store_true')
-parser.add_argument('--comments', help="scrape comments too", action='store_true')
-parser.add_argument('--group', help="account is a group", action='store_true')
-args = parser.parse_args()
-get_fb_posts(args)
+if __name__ == '__main__':
+    parser = ArgumentParser()
+    parser.add_argument('--account', '-a', help="name of the account", required=True)
+    parser.add_argument('--cookies', help="cookie file for getting data of a private account", required=False)
+    parser.add_argument('--reactions', help="extract likes and so from posts", action='store_true')
+    parser.add_argument('--comments', help="scrape comments too", action='store_true')
+    parser.add_argument('--group', help="account is a group", action='store_true')
+    args = parser.parse_args()
+    get_fb_posts(args)
