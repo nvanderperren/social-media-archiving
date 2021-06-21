@@ -14,7 +14,7 @@ from datetime import date
 
 def write_info(info, account):
     today = date.today().strftime("%Y%m%d")
-    json_file = dumps(info, indent=2)
+    json_file = dumps(info, indent=2, ensure_ascii=False)
     with open('{}_{}_info.json'.format(today, account), 'w') as output_file:
         output_file.write(json_file)
         output_file.close()
