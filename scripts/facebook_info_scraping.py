@@ -17,11 +17,12 @@ def write_info(info, account):
 def get_fb_info(args):
     account = args.account
     cookies = args.cookies if args.cookies else None
+    friends = args.friends
     type = args.type
     info = None
 
     if type == 'group':
-        info = get_group_info(account, cookies=cookies) 
+        info = get_group_info(account, cookies=cookies, friends=friends) 
     if type == 'account':
         info = get_profile(account, cookies=cookies)
     if type == 'page':
@@ -30,10 +31,11 @@ def get_fb_info(args):
     write_info(info, account)
 
 
-parser = ArgumentParser()
-parser.add_argument('--account', '-a', help="name of the account", required=True)
-parser.add_argument('--cookies', help="cookie file for getting data of a private account", required=False)
-parser.add_argument('--friends', help="extract likes and so from posts", action='store_true')
-parser.add_argument('--type', help="which type of account would you like to scrape", choices=['account', 'group', 'page'], required=True)
-args = parser.parse_args()
-get_fb_info(args)
+if __name__ == '__main__':
+    parser = ArgumentParser()
+    parser.add_argument('--account', '-a', help="name of the account", required=True)
+    parser.add_argument('--cookies', help="cookie file for getting data of a private account", required=False)
+    parser.add_argument('--friends', help="extract friends of accounts", action='store_true', required=False)
+    parser.add_argument('--type', help="which type of account would you like to scrape", choices=['account', 'group', 'page'], required=True)
+    args = parser.parse_args()
+    get_fb_info(args)

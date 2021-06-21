@@ -2,4 +2,4 @@
 *.jsonl
 cookies
 *.txt
-*.jsonl
+*.json*
