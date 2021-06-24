@@ -39,7 +39,7 @@ def get_fb_info(args):
 
 if __name__ == '__main__':
     parser = ArgumentParser()
-    parser.add_argument('--account', '-a', help="name of the account", required=True)
+    parser.add_argument('account', help="name of the account", type=str)
     parser.add_argument('--cookies', help="cookie file for getting data of a private account", required=False)
     parser.add_argument('--friends', help="extract friends of accounts", action='store_true', required=False)
     parser.add_argument('--type', help="which type of account would you like to scrape", choices=['account', 'group', 'page'], required=True)
