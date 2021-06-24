@@ -23,6 +23,7 @@ def write_posts(account, posts):
     today = date.today().strftime("%Y%m%d")
     with open("{}_{}_facebook.jsonl".format(today, account), 'w') as output_file:
         for post in posts:
+            del post['text']
             output_file.write(dumps(post, cls=DateTimeEncoder, ensure_ascii=False))
             output_file.write("\n")
     output_file.close()
