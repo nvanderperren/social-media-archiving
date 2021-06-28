@@ -50,7 +50,11 @@ def get_fb_urls(args):
         posts = get_posts(account=account, cookies=cookies, pages=pages)
 
     for post in posts:
-        urls.append(post['post_url'])
+        url = post['post_url']
+        if crawler == 'wget':
+            post_id = post['post_id']
+            url = 'https://mbasic.facebook.com/{}'.format(post_id) 
+        urls.append(url)
 
     write_urls(urls, account, crawler)
 
@@ -59,7 +63,7 @@ if __name__ == '__main__':
     parser.add_argument('account', help="name of the account", type=str)
     parser.add_argument('--cookies', help="cookie file for getting data of a private account", required=False)
     parser.add_argument('--group', help="account is a group", action='store_true')
-    parser.add_argument('--for-crawler', choices=['browsertrix', 'wget'], required=True)
+    parser.add_argument('--crawler', choices=['browsertrix', 'wget'], required=True)
     parser.add_argument('--pages', help="number of pages to scrape", type=int, default=10)
     args = parser.parse_args()
     get_fb_urls(args)
