@@ -37,9 +37,9 @@ def get_fb_posts(args):
     if args.cookies:
         cookies = args.cookies
     if args.group:
-        posts = get_posts(group=account, cookies=cookies, pages=pages, options={"comments": comments, "reactors": reactions})
+        posts = get_posts(group=account, cookies=cookies, pages=pages, extra_info=True, options={"comments": comments, "reactors": reactions})
     else:
-        posts = get_posts(account=account, cookies=cookies, pages=pages, options={"comments": comments, "reactors": reactions})
+        posts = get_posts(account=account, cookies=cookies, pages=pages, extra_info=True, options={"comments": comments, "reactors": reactions})
     write_posts(account, posts)
 
 if __name__ == '__main__':
