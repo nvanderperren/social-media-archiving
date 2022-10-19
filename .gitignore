@@ -8,3 +8,4 @@ warcs/
 *MacBook-Pr*
 rethinkdb_data/
 crawls/
+*.zip
