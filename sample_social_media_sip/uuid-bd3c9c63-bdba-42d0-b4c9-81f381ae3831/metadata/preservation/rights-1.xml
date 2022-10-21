@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<premis:rights version="3.0" xmlns:="http://www.w3.org/2001/XMLSchema-instance" xmlns:premis="http://www.loc.gov/premis/v3" 
+xsi:schemaLocation="http://www.loc.gov/premis/v3 https://www.loc.gov/standards/premis/premis.xsd">
+    <premis:rightsStatementIdentifier>
+        <premis:rightsStatementIdentifierType>UUID</premis:rightsStatementIdentifierType>
+        <premis:rightsStatementIdentifierValue>8ae76973-ba64-4945-8985-87940bdf7b93</premis:rightsStatementIdentifierValue>
+    </premis:rightsStatementIdentifier>
+    <premis:rightsBasis>license</premis:rightsBasis>
+    <premis:licenseInformation>
+        <premis:licenseDocumentationIdentifier>https://twitter.com/en/tos#intlTerms</premis:licenseDocumentationIdentifier>
+        <premis:licenseTerms>Twitter Terms of Service</premis:licenseTerms>
+        <premis:licenseNote>Terms of use van Twitter</premis:licenseNote>
+        <premis:liceseApplicableDates>
+            <premis:startDate>20210819</premis:startDate>
+        </premis:liceseApplicableDates>
+    </premis:licenseInformation>
+    <premis:linkingObjectIdentifier>
+        <premis:linkingObjectIdentifierType>UUID</premis:linkingObjectIdentifierType>
+        <premis:linkingObjectIdentifierValue>aa334708-6e4a-4d34-b410-0d9cfc18a3b0</premis:linkingObjectIdentifierValue>
+    </premis:linkingObjectIdentifier>
+    <premis:linkingAgentIdentifier>
+        <premis:linkingAgentIdentifierType>UUID</premis:linkingAgentIdentifierType>
+        <premis:linkingAgentIdentifierValue>848a67af-71a4-4f3a-85c7-630fd0dba648</premis:linkingAgentIdentifierValue>
+    </premis:linkingAgentIdentifier>
+</premis:rights>

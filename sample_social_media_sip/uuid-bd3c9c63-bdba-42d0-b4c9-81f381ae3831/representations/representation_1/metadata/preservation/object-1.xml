@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<premis:object version="3.0" xmlns:="http://www.w3.org/2001/XMLSchema-instance" xmlns:premis="http://www.loc.gov/premis/v3" 
+xsi:schemaLocation="http://www.loc.gov/premis/v3 https://www.loc.gov/standards/premis/premis.xsd">
+    <premis:objectIdentifier>
+        <premis:objectIdentifierType>UUID</premis:objectIdentifierType>
+        <premis:objectIdentifierValue>e5dba7c8-11b7-40bc-995a-8c74b107e567</premis:objectIdentifierValue>
+    </premis:objectIdentifier>
+    <premis:objectCategory>file</premis:objectCategory>
+    <premis:preservationLevel>
+        <premis:preservationLevelValue>1</premis:preservationLevelValue>
+        <premis:preservationLevelType>bit preservation</premis:preservationLevelType>
+        <premis:preservationLevelRole>requirement</premis:preservationLevelRole>
+    </premis:preservationLevel>
+    <premis:objectCharacteristics>
+        <premis:compositionLevel>1</premis:compositionLevel>
+        <premis:size>2859318</premis:size>
+        <premis:format>json lines</premis:format>
+    </premis:objectCharacteristics>
+    <premis:originalName>20210325_twitter_packed_snscrape.jsonl</premis:originalName>
+</premis:object>

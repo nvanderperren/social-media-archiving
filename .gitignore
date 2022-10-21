@@ -7,5 +7,6 @@ cookies
 warcs/
 *MacBook-Pr*
 rethinkdb_data/
-*.zip
 crawls/
+*.zip
+!20210325_twitter_packed_snscrape.jsonl
