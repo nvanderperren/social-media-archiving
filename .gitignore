@@ -7,3 +7,5 @@ cookies
 warcs/
 *MacBook-Pr*
 rethinkdb_data/
+*.zip
+crawls/
