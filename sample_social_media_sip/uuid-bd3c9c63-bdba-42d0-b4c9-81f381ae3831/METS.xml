@@ -28,6 +28,7 @@ LABEL="Package METS Twitter PACKEDvzw">
             <name>Nastasia Vanderperren</name>
         </agent>
     </metsHdr>
+    <!--TODO dit moet twee dmdsec zijn--> 
     <dmdSec ID="dmd1" CREATED="2021-01-17T10:59:32+02:00" STATUS="CURRENT">
         <mdRef LOCTYPE="URL" xlink:type="simple" xlink:href="./metadata/descriptive/account-dc.xml"
         MDTYPE="DC" MIMETYPE="application/xml" SIZE="1056" CREATED="2022-01-18T12:22:00+01:00" CHECKSUM="2ab6ae0c6f5dfeedf0b5eb4b2a881fa7"
