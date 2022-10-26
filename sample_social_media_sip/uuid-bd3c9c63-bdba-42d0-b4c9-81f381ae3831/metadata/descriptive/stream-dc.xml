@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dc="http://purl.org/dc/elements/1.1/"
 xmlns:dcterms="http://purl.org/dc/terms/"
-xsi:schemaLocation="http://purl.org/dc/terms/ http://dublincore.org/schemas/xmls/qdc/2008/02/11/dcterms.xsd http://purl.org/dc/elements/1.1/ ../../schemas/dc.xsd"
+xsi:schemaLocation="http://purl.org/dc/terms/ ../../schemas/dcterms.xsd"
 version="1.0">
     <dcterms:identifier xsi:type="UUID">bd3c9c63-bdba-42d0-b4c9-81f381ae3831</dcterms:identifier>
     <dcterms:type xsi:type="http://purl.org/dc/dcmitype/">http://purl.org/dc/dcmitype/Text</dcterms:type>
