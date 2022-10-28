@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xmlns:dcterms="http://purl.org/dc/terms/"
-xsi:schemaLocation="http://purl.org/dc/terms/ ../../schemas/dcterms.xsd"
-version="1.0">
+<metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns:dcterms="http://purl.org/dc/terms/" 
+xsi:schemaLocation="http://purl.org/dc/terms/ ../../schemas/dcterms.xsd">
     <dcterms:identifier xsi:type="URI">https://twitter.com/PACKEDvzw</dcterms:identifier>
     <dcterms:type xsi:type="http://purl.org/dc/dcmitype/">http://purl.org/dc/dcmitype/InteractiveResource</dcterms:type>
     <dcterms:type xsi:type="https://www.wikidata.org/entity/">https://www.wikidata.org/entity/Q102345381</dcterms:type>
@@ -11,4 +10,5 @@ version="1.0">
     <dcterms:publisher>Twitter</dcterms:publisher>
     <dcterms:rights xsi:type="rightsstatements.org">https://rightsstatements.org/page/InC/1.0/</dcterms:rights>
     <dcterms:created xsi:type="EDTF">2012-06-14/2020-06-18</dcterms:created>
-</item>
+    <!-- dcterms:description vraag aan Miel: moet dit verplicht zijn?-->
+</metadata>

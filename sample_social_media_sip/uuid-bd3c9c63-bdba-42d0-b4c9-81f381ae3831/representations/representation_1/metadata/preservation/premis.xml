@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<premis:premis version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns:premis="http://www.loc.gov/premis/v3" xsi:schemaLocation="http://www.loc.gov/premis/v3 
+../../../../schemas/premis.xsd">
+
+    <premis:object>
+        <premis:objectIdentifier>
+            <premis:objectIdentifierType>UUID</premis:objectIdentifierType>
+            <premis:objectIdentifierValue>e5dba7c8-11b7-40bc-995a-8c74b107e567</premis:objectIdentifierValue>
+        </premis:objectIdentifier>
+        <premis:objectCategory>file</premis:objectCategory>
+        <premis:preservationLevel>
+            <premis:preservationLevelValue>1</premis:preservationLevelValue>
+            <premis:preservationLevelType>bit preservation</premis:preservationLevelType>
+            <premis:preservationLevelRole>requirement</premis:preservationLevelRole>
+        </premis:preservationLevel>
+        <premis:objectCharacteristics>
+            <premis:compositionLevel>1</premis:compositionLevel>
+            <premis:size>2859318</premis:size>
+            <premis:format>json lines</premis:format>
+        </premis:objectCharacteristics>
+        <premis:originalName>20210325_twitter_packed_snscrape.jsonl</premis:originalName>
+    </premis:object>
+
+    <premis:event>
+        <premis:eventIdentifier>
+            <premis:eventIdentifierType>UUID</premis:eventIdentifierType>
+            <premis:eventIdentifierValue>33411f35-88f9-40fb-807d-c4245f002957</premis:eventIdentifierValue>
+        </premis:eventIdentifier>
+        <premis:eventType>creation</premis:eventType>
+        <premis:eventDateTime>2021-03-25T10:59:32+02:00</premis:eventDateTime>
+        <premis:eventDetailInformation>
+            <premis:eventDetail>captatie van Twitteraccount via snscrape</premis:eventDetail>
+        </premis:eventDetailInformation>
+        <premis:eventOutcomeInformation>1</premis:eventOutcomeInformation>
+        <premis:linkingAgentIdentifier></premis:linkingAgentIdentifier>
+            <premis:linkingAgentIdentifierType>UUID</premis:linkingAgentIdentifierType>
+            <premis:linkingAgentIdentifierValue>86d89e58-3a1d-4c68-89a1-43134c37671d</premis:linkingAgentIdentifierValue>
+        <premis:linkingObjectIdentifier>
+            <premis:linkingObjectIdentifierType>UUID</premis:linkingObjectIdentifierType>
+            <premis:linkingObjectIdentifierValue>e5dba7c8-11b7-40bc-995a-8c74b107e567</premis:linkingObjectIdentifierValue>
+        </premis:linkingObjectIdentifier>
+    </premis:event>
+
+    <premis:agent>
+        <premis:agentIdentifier>
+            <premis:agentIdentifierType>UUID</premis:agentIdentifierType>
+            <premis:agentIdentifierValue>86d89e58-3a1d-4c68-89a1-43134c37671d</premis:agentIdentifierValue>
+        </premis:agentIdentifier>
+        <premis:agentType>software</premis:agentType>
+        <premis:agentName>snscrape</premis:agentName>
+    </premis:agent>
+
+</premis:premis>

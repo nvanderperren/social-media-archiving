@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<premis:premis version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:premis="http://www.loc.gov/premis/v3" xsi:schemaLocation="http://www.loc.gov/premis/v3 https://www.loc.gov/standards/premis/premis.xsd">
+<premis:premis version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:premis="http://www.loc.gov/premis/v3" xsi:schemaLocation="http://www.loc.gov/premis/v3 ../../schemas/premis.xsd">
     <premis:object>
         <premis:objectIdentifier>
             <premis:objectIdentifierType>UUID</premis:objectIdentifierType>
@@ -20,15 +20,6 @@
         </premis:relationship>
     </premis:object>
 
-    <premis:agent>
-        <premis:agentIdentifier>
-            <premis:agentType>UUID</premis:agentType>
-            <premis:agentName>3be0bc38-27bf-4e8f-bf04-053bea3137b7</premis:agentName>
-        </premis:agentIdentifier>
-        <premis:agentType>person</premis:agentType>
-        <premis:agentName>Nastasia Vanderperren</premis:agentName>
-    </premis:agent>
-
     <premis:rights>
         <premis:rightsStatementIdentifier>
             <premis:rightsStatementIdentifierType>UUID</premis:rightsStatementIdentifierType>
@@ -37,12 +28,12 @@
         <premis:rightsBasis>license</premis:rightsBasis>
         <premis:licenseInformation>
             <premis:licenseDocumentationIdentifier>https://twitter.com/en/tos#intlTerms</premis:licenseDocumentationIdentifier>
-            /* misschien beter een gearchiveerde versie van de TOS gebruiken? de TOS kan namelijk geüpdatet worden */
+            <!-- misschien beter een gearchiveerde versie van de TOS gebruiken? de TOS kan namelijk geüpdatet worden --> 
             <premis:licenseTerms>Twitter Terms of Service</premis:licenseTerms>
             <premis:licenseNote>Terms of use van Twitter</premis:licenseNote>
-            <premis:liceseApplicableDates>
+            <premis:licenseApplicableDates>
                 <premis:startDate>20210819</premis:startDate>
-            </premis:liceseApplicableDates>
+            </premis:licenseApplicableDates>
         </premis:licenseInformation>
         <premis:linkingObjectIdentifier>
             <premis:linkingObjectIdentifierType>UUID</premis:linkingObjectIdentifierType>
@@ -66,15 +57,25 @@
         <premis:eventDetailInformation>
             <premis:eventDetail>creatie van de SIP</premis:eventDetail>
         </premis:eventDetailInformation>
-        <premis:eventOutcomeInformation>0</premis:eventOutcomeInformation>
         <premis:linkingAgentIdentifier></premis:linkingAgentIdentifier>
             <premis:linkingAgentIdentifierType>UUID</premis:linkingAgentIdentifierType>
             <premis:linkingAgentIdentifierValue>3be0bc38-27bf-4e8f-bf04-053bea3137b7</premis:linkingAgentIdentifierValue>
+            <premis:linkingAgentRole>implementer</premis:linkingAgentRole>
         <premis:linkingObjectIdentifier>
             <premis:linkingObjectIdentifierType>UUID</premis:linkingObjectIdentifierType>
             <premis:linkingObjectIdentifierValue>bd3c9c63-bdba-42d0-b4c9-81f381ae3831</premis:linkingObjectIdentifierValue>
+            <premis:linkingObjectRole>outcome</premis:linkingObjectRole>
         </premis:linkingObjectIdentifier>
     </premis:event>
+
+    <premis:agent>
+        <premis:agentIdentifier>
+            <premis:agentType>UUID</premis:agentType>
+            <premis:agentName>3be0bc38-27bf-4e8f-bf04-053bea3137b7</premis:agentName>
+        </premis:agentIdentifier>
+        <premis:agentType>person</premis:agentType>
+        <premis:agentName>Nastasia Vanderperren</premis:agentName>
+    </premis:agent>
 
 
 </premis:premis>
