@@ -6,51 +6,40 @@ xsi:schemaLocation="https://www.w3.org./1999/xlink ../../schemas/xlink.xsd http:
 http://www.loc.gov/METS/ ../../schemas/mets.xsd
 https://dilcis.eu/XML/METS/CSIPExtensionMETS ../../schemas/DILCISExtensionMETS.xsd
 https://dilcis.eu/XML/METS/SIPExtensionMETS ../../schemas/DILCISExtensionSIPMETS.xsd"
-PROFILE="https://data.meemoo.be/profiles/meemoo-representationmets-v1.0.x"
-TYPE="OTHER" OTHERTYPE="TEXT SCRAPE" OBJID="de307969-c8f5-4395-9c20-a3441b7a3acc"
-LABEL="rep-1">
+PROFILE="https://earksip.dilcis.eu/profile/E-ARK-SIP.xml"
+TYPE="OTHER" OTHERTYPE="TEXT SCRAPE" OBJID="representation_1"
+LABEL="text scrape van https://twitter.com/PACKEDvzw">
     <metsHdr CREATEDATE="2021-01-17T10:59:32+02:00" csip:OAISPACKAGETYPE="SIP" />
-    <amdSec ID="amd2">
-        <digiprovMD ID="rep_agent">
-            <mdRef LOCTYPE="URL" xlink:type="simple" xlink:href="./metadata/preservation/agent-1.xml"
-            MDTYPE="PREMIS:AGENT" MIMETYPE="application/xml" SIZE="585"
-            CREATED="2022-01-14T15:58:33+01:00" CHECKSUM="ef7b9646cbe2be83b724f28f98cfe75c"
+    <amdSec ID="EDC6AD92-2413-4C78-8097-E3B1225E55F0">
+        <digiprovMD ID="C1F2C0E2-065D-4A6E-B034-6A4850DB2894" status="CURRENT">
+            <mdRef LOCTYPE="URL" xlink:type="simple" xlink:href="./metadata/preservation/premis.xml"
+            MDTYPE="PREMIS" MIMETYPE="application/xml" SIZE="2930"
+            CREATED="2022-10-28T12:24:07+01:00" CHECKSUM="3c58290e510d6e5714a48bb6818cc61d"
             CHECKSUMTYPE="md5"></mdRef>
-        </digiprovMD>
-        <digiprovMD ID="rep_object">
-            <mdRef LOCTYPE="URL" xlink:type="simple" xlink:href="./metadata/preservation/object-1.xml"
-            MDTYPE="PREMIS:OBJECT" MIMETYPE="application/xml" SIZE="1205"
-            CREATED="2022-01-14T15:58:33+01:00" CHECKSUM="515c0853269e1fe21316c737bc23c629"
-            CHECKSUMTYPE="md5"></mdRef>
-        </digiprovMD>
-        <digiprovMD ID="rep_event">
-            <mdRef LOCTYPE="URL" xlink:type="simple" xlink:href="./metadata/preservation/event-1.xml"
-            MDTYPE="PREMIS:EVENT" MIMETYPE="application/xml" SIZE="1437"
-            CREATED="2022-01-14T15:58:03+01:00" CHECKSUM="33d21865560cbdd335367241396b630d" CHECKSUMTYPE="md5"></mdRef>
         </digiprovMD>
     </amdSec>
-    <fileSec id="fsec2">
-        <fileGrp ID="data" USE="representations/rep-1/data">
-            <file ID="20210325_twitter_packed_jsonl" MIMETYPE="application/json-l" SIZE="2859318" CREATED="2021-03-25T08:23+02:00" CHECKSUM="038b8ee3495eeeff908bf755eea419ed" 
-            CHECKSUMTYPE="md5" ADMID="rep_object">
+    <fileSec id="6AC0A3FF-A207-4621-9D67-D14997B74E86">
+        <fileGrp ID="D2AB635B-8584-4132-974F-2BAD326E1338" USE="representations/representation_1/data">
+            <file ID="2DF5B441-D8E0-45F9-87EA-E0580360292A" MIMETYPE="application/jsonlines" SIZE="2859318" CREATED="2021-03-25T08:23+02:00" CHECKSUM="038b8ee3495eeeff908bf755eea419ed" 
+            CHECKSUMTYPE="md5" ADMID="C1F2C0E2-065D-4A6E-B034-6A4850DB2894">
                 <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="./data/20210325_twitter_packed_snscrape.jsonl" />
             </file>
         </fileGrp>
-        <fileGrp ID="doc" USE="representations/rep-1/documentation">
-            <file ID="config.yml" MIMETYPE="text/yaml" SIZE="855" CREATED="2021-03-25T08:23+02:00" CHECKSUM="02c29fef3a0a86e8a27ecd3268a557f3" 
+        <fileGrp ID="34B3EC93-B3F0-4D60-8635-F24149E9946E" USE="representations/representation_1/documentation">
+            <file ID="8183DE9D-5D6E-4CE4-B870-ACBCE1016A58" MIMETYPE="text/yaml" SIZE="855" CREATED="2021-03-25T08:23+02:00" CHECKSUM="02c29fef3a0a86e8a27ecd3268a557f3" 
             CHECKSUMTYPE="md5">
                 <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="./documentation/config.yml" />
             </file>
         </fileGrp>
     </fileSec>
-    <structMap ID="rep_structuur" TYPE="physical" LABEL="CSIP">
-        <div ID="eedc92a4-85e0-478b-938a-a159c50e3147" LABEL="de307969-c8f5-4395-9c20-a3441b7a3acc">
-            <div ID="2" LABEL="data">
-                <fptr FILEID="data" />
+    <structMap ID="17F820EF-DE9B-4F4D-A134-AD2D022480E3" TYPE="physical" LABEL="CSIP">
+        <div ID="eedc92a4-85e0-478b-938a-a159c50e3147" LABEL="representation_1">
+            <div ID="3D71327E-1C11-45FF-9761-9E5A0018FA99" LABEL="data">
+                <fptr FILEID="D2AB635B-8584-4132-974F-2BAD326E1338" />
             </div>
-            <div ID="3" LABEL="metadata" ADMID="amd2" />
-            <div ID="4" LABEL="documentation">
-                <fptr FILEID="doc" />
+            <div ID="249677D3-2F4C-4A5A-BBE4-13ADABE978AC" LABEL="metadata" ADMID="C1F2C0E2-065D-4A6E-B034-6A4850DB2894" />
+            <div ID="12DBE67F-0B1F-47D3-93A6-7147A1B6225D" LABEL="documentation">
+                <fptr FILEID="34B3EC93-B3F0-4D60-8635-F24149E9946E" />
             </div>
         </div>
     </structMap>
