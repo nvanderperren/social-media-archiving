@@ -10,3 +10,5 @@ rethinkdb_data/
 crawls/
 *.zip
 !20210325_twitter_packed_snscrape.jsonl
+*/reference_set
+samples/
