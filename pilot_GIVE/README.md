@@ -36,3 +36,10 @@
    2. ga op zoek in de json naar de profile pic
    3. haal de url op via wget
    4. downloaden maar!
+
+## TODO facebook
+
+1. zoek personen via de google search
+2. scrape ze via facebook_scraper
+3. controleer hun naam `["Name"]` en `["Places lived"]`
+4. komen ze overeen? behou ze op de lijst en achteraf scrapen.

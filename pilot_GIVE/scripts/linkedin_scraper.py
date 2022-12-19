@@ -21,21 +21,26 @@ def linkedin_scrape(linkedin_id, output):
 
     # get the json of the person
     # requirement `nmp start @ linkedin-profile-scraper`
-    response = requests.get("http://localhost:3000/?url=https://linkedin.com/in/" + linkedin_id)
+    try: 
+        response = requests.get("http://localhost:3000/?url=https://linkedin.com/in/" + linkedin_id)
 
-    # scrape the profile pic url
-    image_url = response.json()['userProfile']['photo']
-    if image_url.startswith('http'):
-        image_data = requests.get(image_url).content
+    except:
+        print("something went wrong.")
 
-        # downlaod image
-        with open(path, "wb") as handler:
-            handler.write(image_data)
-
+    else:
+        # scrape the profile pic url
+        image_url = response.json()['userProfile']['photo']
+        if image_url.startswith('http'):
+            image_data = requests.get(image_url).content
+            # download image
+            with open(path, "wb") as handler:
+                handler.write(image_data)
+    
+    finally:
         ## let it sleep, let it sleep, let it sleep
-    pause = randint(0, 300)
-    print("sleeping for " + str(pause) + ' seconds')
-    sleep(pause)
+        pause = randint(0, 300)
+        print("sleeping for " + str(pause) + ' seconds')
+        sleep(pause)
 
 def create_folder(folder):
     if not os.path.exists(folder):

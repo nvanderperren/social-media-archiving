@@ -22,20 +22,29 @@ def facebook_scrape(facebook_id, output):
     uuid = str(uuid4())
     path = output + '/' + uuid + '.jpg'
 
-    json = get_profile(facebook_id, cookies=cookies)
-    image_url = json['profile_picture']
+    try:
+        json = get_profile(facebook_id, cookies=cookies)
 
-    if image_url.startswith('http'):
-        image_data = requests.get(image_url).content
+    except:
+        print("something went wrong")
 
-        # downlaod image
-        with open(path, "wb") as handler:
-            handler.write(image_data)
+    else:
+        image_url = json['profile_picture']
 
+        if image_url.startswith('http'):
+            image_data = requests.get(image_url).content
+
+            # downlaod image
+            with open(path, "wb") as handler:
+                handler.write(image_data)
+
+        
+    finally:
         ## let it sleep, let it sleep, let it sleep
-    pause = randint(0, 300)
-    print("sleeping for " + str(pause) + ' seconds')
-    sleep(pause)
+        pause = randint(0, 300)
+        print("sleeping for " + str(pause) + ' seconds')
+        sleep(pause)
+    
 
 
 def create_folder(folder):
