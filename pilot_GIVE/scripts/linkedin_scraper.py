@@ -6,9 +6,12 @@ import os
 from time import sleep
 from random import randint
 
+from dotenv import load_dotenv
+
 csv = argv[1]
 folder = argv[2]
 
+load_dotenv()
 filename = 'qid'
 linkedin_key = 'LinkedIn_ID'
 QID_key = 'QID'
@@ -26,6 +29,10 @@ def linkedin_scrape(linkedin_id, output):
 
     except:
         print("something went wrong.")
+        directory = os.getenv('LINKEDIN_SCRAPER_DIRECTORY')
+        command = "nmp start --prefix " + directory
+        os.system(command)
+        sleep(40)
 
     else:
         # scrape the profile pic url
