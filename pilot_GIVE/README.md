@@ -20,3 +20,26 @@
 5. er zijn ook politici die gewoon niet in een google search opduiken, ook al hebben ze wel een facebookprofiel met hun locatie erbij
 6. ook bekende politici kunnen geen facebookprofiel hebben
 7. provincieraadsleden zijn lastig. hier misschien eerder werken met politieke partij? probleem is dat die vaak niet vermeld zijn in de databank. zoeken op facebook zorgt ook soms voor een foute match.
+
+## TODO met Openrefine data
+
+1. haal alle afbeeldingen van wikidata
+2. haal alle afbeeldingen van wikimedia commons
+3. haal afbeeldingen via de facebookid
+   1. haal de json met de profile-info
+   2. ga op zoek naar de key voor de profile pic
+   3. haal de url op via wget
+   4. downloaden maar!
+4. maak een CSV met de Twitter-mensen en geef ze aan Lode
+5. haal afbeeldingen van linkedin
+   1. haal de json met de tool
+   2. ga op zoek in de json naar de profile pic
+   3. haal de url op via wget
+   4. downloaden maar!
+
+## TODO facebook
+
+1. zoek personen via de google search
+2. scrape ze via facebook_scraper
+3. controleer hun naam `["Name"]` en `["Places lived"]`
+4. komen ze overeen? behou ze op de lijst en achteraf scrapen.
