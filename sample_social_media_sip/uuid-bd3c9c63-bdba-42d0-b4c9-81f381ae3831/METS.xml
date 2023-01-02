@@ -1,132 +1,111 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<mets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mets="http://www.loc.gov/METS/" 
-xmlns:csip="https://dilcis.eu/XML/METS/CSIPExtensionMETS" xmlns:sip="https://DILCIS.eu/XML/METS/SIPExtensionMETS"
-xmlns:premis= "http://www.loc.gov/premis/v3"
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" 
+xmlns:csip="https://dilcis.eu/XML/METS/CSIPExtensionMETS" 
+xmlns:sip="https://DILCIS.eu/XML/METS/SIPExtensionMETS" xmlns:premis="http://www.loc.gov/premis/v3"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns:xlink="http://www.w3.org/1999/xlink"  
 xsi:schemaLocation="https://www.w3.org./1999/xlink ./schemas/xlink.xsd 
-http://www.loc.gov/METS/ ./schemas/mets.xsd
+http://www.loc.gov/METS/ https://www.loc.gov/standards/mets/mets.xsd
 https://dilcis.eu/XML/METS/CSIPExtensionMETS ./schemas/DILCISExtensionMETS.xsd
 https://dilcis.eu/XML/METS/SIPExtensionMETS ./schemas/DILCISExtensionSIPMETS.xsd 
-http://www.loc.gov/premis/v3  ../../../../schemas/premis.xsd"
+http://www.loc.gov/premis/v3  ./schemas/premis.xsd"
 PROFILE="https://earksip.dilcis.eu/profile/E-ARK-SIP.xml"
 csip:CONTENTINFORMATIONTYPE="https://data.hetarchief.be/id/sip/1.1/social-media-streams"
-TYPE="OTHER" OTHERTYPE="SOCIAL MEDIA STREAM" OBJID="uuid-bd3c9c63-bdba-42d0-b4c9-81f381ae3831"
+TYPE="OTHER" csip:OTHERTYPE="SOCIAL MEDIA STREAM" OBJID="uuid-bd3c9c63-bdba-42d0-b4c9-81f381ae3831"
 LABEL="Twitter account of PACKEDvzw 2012-2020">
-    <metsHdr CREATEDATE="2022-01-17T09:03:32+01:00" csip:OAISPACKAGETYPE="SIP"
-    LASTMODDATE="2022-02-12:30:32+01:00">
-        <agent ROLE="SUBMISSION" TYPE="ORGANIZATION">
-            <name>meemoo, Vlaams instituut voor het archief</name>
-        </agent>
-        <agent ROLE="CREATOR" TYPE="OTHER" OTHERTYPE="SOFTWARE">
-            <name>meemoo SIP creator</name>
-            <note csip:NOTETYPE="SOFTWARE VERSION">1.0.0</note>
-        </agent>  
-        <agent ROLE="ARCHIVIST" TYPE="ORGANIZATION">
-            <name>meemoo, Vlaams Instituut voor het archief</name>
-        </agent>
-        <agent ROLE="SUBMISSION" TYPE="ORGANIZATION"> <!-- volgens de meemoo sip moet dit ROLE="CREATOR" zijn -->
-            <name>meemoo, Vlaams instituut voor het archef</name>
-        </agent>
-        <agent ROLE="PRESERVATION" TYPE="ORGANIZATION">
-            <name>meemoo, Vlaams instituut voor het archef</name>
-        </agent>
-    </metsHdr>
-    <dmdSec ID="dmd1" CREATED="2022-10-27T13:59:32+02:00" STATUS="CURRENT">
-        <mdRef LOCTYPE="URL" xlink:type="simple" xlink:href="./metadata/descriptive/dc1.xml"
+<!-- schemaLocation nog aanpassen naar online xsd en schemas directory verwijderen -->
+    <mets:metsHdr CREATEDATE="2022-01-17T09:03:32+01:00" csip:OAISPACKAGETYPE="SIP">
+        <mets:agent ROLE="CREATOR" TYPE="OTHER" OTHERTYPE="SOFTWARE">
+            <mets:name>meemoo SIP creator</mets:name>
+            <mets:note csip:NOTETYPE="SOFTWARE VERSION">1.0.0</mets:note>
+        </mets:agent>  
+        <mets:agent ROLE="ARCHIVIST" TYPE="ORGANIZATION">
+            <mets:name>meemoo, Vlaams Instituut voor het archief</mets:name>
+        </mets:agent>
+        <mets:agent ROLE="CREATOR" TYPE="ORGANIZATION"> 
+            <mets:name>meemoo, Vlaams instituut voor het archef</mets:name>
+        </mets:agent>
+        <mets:agent ROLE="CREATOR" TYPE="INDIVIDUAL"> 
+            <mets:name>Nastasia Vanderperren</mets:name>
+            <mets:note>nastasia.vanderperren@meemoo.be</mets:note>
+        </mets:agent>
+        <mets:agent ROLE="PRESERVATION" TYPE="ORGANIZATION">
+            <mets:name>meemoo, Vlaams instituut voor het archef</mets:name>
+        </mets:agent>
+    </mets:metsHdr>
+    <mets:dmdSec ID="dmd1" CREATED="2022-10-27T13:59:32+02:00" STATUS="CURRENT">
+        <mets:mdRef LOCTYPE="URL" xlink:type="simple" xlink:href="./metadata/descriptive/dc1.xml"
         MDTYPE="DC" MIMETYPE="application/xml" SIZE="1056" CREATED="2022-10-27T12:22:00+02:00" CHECKSUM="d17a3e416eb511a97a7e000d3830e771"
         CHECKSUMTYPE="MD5" />
-    </dmdSec>
-    <dmdSec ID="dmd2" CREATED="2022-10-27T14:00:32+02:00" STATUS="CURRENT">
-        <mdRef LOCTYPE="URL" xlink:type="simple" xlink:href="./metadata/descriptive/dc2.xml"
+    </mets:dmdSec>
+    <mets:dmdSec ID="dmd2" CREATED="2022-10-27T14:00:32+02:00" STATUS="CURRENT">
+        <mets:mdRef LOCTYPE="URL" xlink:type="simple" xlink:href="./metadata/descriptive/dc2.xml"
         MDTYPE="DC" MIMETYPE="application/xml" SIZE="916" CREATED="2022-10-27T10:09:00+02:00" CHECKSUM="a113774b4d705f6eed8f0eee1fa870fa"
         CHECKSUMTYPE="MD5" />
-    </dmdSec>
-    <amdSec ID="amd1">
-        <digiprovMD ID="5A80E9C0-1571-47FD-BDCC-1D50FC78901D">
-            <mdRef LOCTYPE="URL" xlink:type="simple" xlink:href="./metadata/preservation/premis.xml"
+    </mets:dmdSec>
+    <mets:amdSec ID="amd1">
+        <mets:rightsMD ID="rmd_1">
+            <mets:mdWrap MIMETYPE="text/xml" MDTYPE="PREMIS:RIGHTS">
+                <mets:xmlData>
+                    <premis:rights>
+                        <premis:rightsStatement>
+                            <premis:rightsStatementIdentifier>
+                                <premis:rightsStatementIdentifierType>UUID</premis:rightsStatementIdentifierType>
+                                <premis:rightsStatementIdentifierValue>8ae76973-ba64-4945-8985-87940bdf7b93</premis:rightsStatementIdentifierValue>
+                            </premis:rightsStatementIdentifier>
+                            <premis:rightsBasis>license</premis:rightsBasis>
+                            <premis:licenseInformation>
+                                <premis:licenseDocumentationIdentifier>
+                                    <premis:licenseDocumentationIdentifierType>URI</premis:licenseDocumentationIdentifierType>
+                                    <premis:licenseDocumentationIdentifierValue>https://twitter.com/en/tos#intlTerms</premis:licenseDocumentationIdentifierValue>
+                                </premis:licenseDocumentationIdentifier>
+                                <premis:licenseTerms>Twitter Terms of Service</premis:licenseTerms>
+                                <premis:licenseNote>Terms of use van Twitter</premis:licenseNote>
+                                <premis:licenseApplicableDates>
+                                    <premis:startDate>20210819</premis:startDate>
+                                </premis:licenseApplicableDates>
+                            </premis:licenseInformation>
+                            <premis:linkingObjectIdentifier>
+                                <premis:linkingObjectIdentifierType>UUID</premis:linkingObjectIdentifierType>
+                                <premis:linkingObjectIdentifierValue>aa334708-6e4a-4d34-b410-0d9cfc18a3b0</premis:linkingObjectIdentifierValue>
+                            </premis:linkingObjectIdentifier>
+                            <premis:linkingAgentIdentifier>
+                                <premis:linkingAgentIdentifierType>UUID</premis:linkingAgentIdentifierType>
+                                <premis:linkingAgentIdentifierValue>848a67af-71a4-4f3a-85c7-630fd0dba648</premis:linkingAgentIdentifierValue>
+                            </premis:linkingAgentIdentifier>
+                        </premis:rightsStatement>  
+                    </premis:rights>
+                </mets:xmlData>           
+            </mets:mdWrap>
+        </mets:rightsMD>
+        <mets:digiprovMD ID="uuid-5A80E9C0-1571-47FD-BDCC-1D50FC78901D">
+            <mets:mdRef LOCTYPE="URL" xlink:type="simple" xlink:href="./metadata/preservation/premis.xml"
             MDTYPE="PREMIS" MIMETYPE="application/xml" SIZE="596"
             CREATED="2022-01-14T15:46:00+01:00" CHECKSUM="f09760182cef559bb18533e98ce78903"
             CHECKSUMTYPE="MD5" />
-        </digiprovMD>
+        </mets:digiprovMD>
         <!-- wat doen met de rightsMD? en met de rechten in het algemeen? -->
-        <rightsMD id="rmd_1">
-            <premis:rights>
-                <premis:rightsStatementIdentifier>
-                    <premis:rightsStatementIdentifierType>UUID</premis:rightsStatementIdentifierType>
-                    <premis:rightsStatementIdentifierValue>8ae76973-ba64-4945-8985-87940bdf7b93</premis:rightsStatementIdentifierValue>
-                </premis:rightsStatementIdentifier>
-                <premis:rightsBasis>license</premis:rightsBasis>
-                <premis:licenseInformation>
-                    <premis:licenseDocumentationIdentifier>https://twitter.com/en/tos#intlTerms</premis:licenseDocumentationIdentifier>
-                    <!-- misschien beter een gearchiveerde versie van de TOS gebruiken? de TOS kan namelijk geüpdatet worden --> 
-                    <premis:licenseTerms>Twitter Terms of Service</premis:licenseTerms>
-                    <premis:licenseNote>Terms of use van Twitter</premis:licenseNote>
-                    <premis:licenseApplicableDates>
-                        <premis:startDate>20210819</premis:startDate>
-                    </premis:licenseApplicableDates>
-                </premis:licenseInformation>
-                <premis:linkingObjectIdentifier>
-                    <premis:linkingObjectIdentifierType>UUID</premis:linkingObjectIdentifierType>
-                    <premis:linkingObjectIdentifierValue>aa334708-6e4a-4d34-b410-0d9cfc18a3b0</premis:linkingObjectIdentifierValue>
-                </premis:linkingObjectIdentifier>
-                <premis:linkingAgentIdentifier>
-                    <premis:linkingAgentIdentifierType>UUID</premis:linkingAgentIdentifierType>
-                    <premis:linkingAgentIdentifierValue>848a67af-71a4-4f3a-85c7-630fd0dba648</premis:linkingAgentIdentifierValue>
-                </premis:linkingAgentIdentifier>
-            </premis:rights>
-        </rightsMD>
-    </amdSec>
-    <fileSec ID="fsec1">
-        <fileGrp ID="reps" USE="Representations/representation_1" csip:CONTENTINFORMATIONTYPE="RAW-CONTENT">
-            <file ID="rep_mets" MIMETYPE="application/xml" SIZE="3355" CREATED="2022-01-14T15:57:00+01:00" 
-            CHECKSUM="003de85ff82009491e5ae7ec6ac2f475" CHECKSUMTYPE="md5">
-                <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="./representations/representation_1/METS.xml" />
-            </file>
-        </fileGrp>
-        <fileGrp ID="schemas" USE="Schemas">
-            <file ID="dc" MIMETYPE="application/xml" SIZE="4174" CREATED="2021-09-06T16:50:00+01:00" 
-            CHECKSUM="4159cba6ea6e691d2249404a0a8fd7ad" CHECKSUMTYPE="md5">
-                <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="./schemas/dc.xsd" />
-            </file>
-            <file ID="dcterms" MIMETYPE="application/xml" SIZE="13441" CREATED="2021-09-06T16:50:00+01:00" 
-            CHECKSUM="ddb83e57898a40d9e8bd807bb8e15e22" CHECKSUMTYPE="md5">
-                <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="./schemas/dcterms.xsd" />
-            </file>
-            <file ID="mets" MIMETYPE="application/xml" SIZE="138326" CREATED="2019-10-19T00:42:00+01:00" 
-            CHECKSUM="7102b6ea435a3f0d8231d149818f2487" CHECKSUMTYPE="md5">
-                <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="./schemas/mets.xsd" />
-            </file>
-            <file ID="premis" MIMETYPE="application/xml" SIZE="52845" CREATED="2016-01-15T20:40:00+01:00" 
-            CHECKSUM="60dfc63a796c507af85c6ab635bfdf8e" CHECKSUMTYPE="md5">
-                <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="./schemas/premis.xsd" />
-            </file>
-            <file ID="xlink" MIMETYPE="application/xml" SIZE="9386" CREATED="2008-07-14T21:44:00+01:00" 
-            CHECKSUM="d5ab9b18c60abb10bf4574a44c768fbb" CHECKSUMTYPE="md5">
-                <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="./schemas/xlink.xsd" />
-            </file>
-            <file ID="earkmets" MIMETYPE="application/xml" SIZE="2038" CREATED="2021-10-25T21:06:00+01:00" 
-            CHECKSUM="eb72ef8ab5b1c93801dfacbfe6aa8e27" CHECKSUMTYPE="md5">
-                <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="./schemas/DILCISExtensionMETS.xsd" />
-            </file>
-            <file ID="earksipmets" MIMETYPE="application/xml" SIZE="499" CREATED="2021-10-25T21:04:00+01:00" 
-            CHECKSUM="83da1ff6f35adeece3cccfb5e2e9f83a" CHECKSUMTYPE="md5">
-                <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="./schemas/DILCISExtensionSIPMETS.xsd" />
-            </file>
-        </fileGrp>
-        <fileGrp ID="docs" USE="Documentation" />
-    </fileSec>
-    <structMap ID="pack_structuur" TYPE="PHISICAL" LABEL="CSIP">
-        <div id="package" LABEL="uuid-bd3c9c63-bdba-42d0-b4c9-81f381ae3831">
-            <div ID="pack_metadata" LABEL="metadata" ADMID="amd1" DMDID="dmd1" />
-            <div ID="pack_rep" LABEL="representations/representation_1">
-                <mptr LOCTYPE="URL" xlink:type="simple" xlink:href="./representations/representation_1/METS.xml" xlink:title="TEXT SCRAPE" />
-            </div>
-            <div ID="pack_schemas" LABEL="schemas">
-                <fptr FILEID="schemas" />
-            </div>
-            <div ID="pack_docs" LABEL="documentation">
-                <fptr FILEID="docs" />
-            </div>
-        </div>
-    </structMap>
-</mets>
+    </mets:amdSec>
+    <mets:fileSec ID="fsec1">
+        <mets:fileGrp ID="reps" USE="Representations/representation_1" csip:CONTENTINFORMATIONTYPE="RAW-CONTENT">
+            <mets:file ID="rep_mets" MIMETYPE="application/xml" SIZE="3355" CREATED="2022-01-14T15:57:00+01:00" 
+            CHECKSUM="003de85ff82009491e5ae7ec6ac2f475" CHECKSUMTYPE="MD5">
+                <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="./representations/representation_1/METS.xml" />
+            </mets:file>
+        </mets:fileGrp>
+        <!-- de fysieke schemas directory wordt verwijderd en staat daarom niet in de METS -->
+        <mets:fileGrp ID="docs" USE="Documentation" />
+    </mets:fileSec>
+    <mets:structMap ID="pack_structuur" TYPE="PHISICAL" LABEL="CSIP">
+        <mets:div ID="package" LABEL="uuid-bd3c9c63-bdba-42d0-b4c9-81f381ae3831">
+            <mets:div ID="pack_metadata" LABEL="metadata" ADMID="amd1" DMDID="dmd1" />
+            <mets:div ID="pack_rep" LABEL="representations/representation_1">
+                <mets:mptr LOCTYPE="URL" xlink:type="simple" xlink:href="./representations/representation_1/METS.xml" xlink:title="TEXT SCRAPE" />
+            </mets:div>
+            <!-- de fysieke schemas directory wordt verwijderd en staat daarom niet in de METS -->
+            <mets:div ID="pack_docs" LABEL="documentation">
+                <mets:fptr FILEID="docs" />
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
            xmlns:dc="http://purl.org/dc/elements/1.1/"
            xmlns:dcmitype="http://purl.org/dc/dcmitype/"
            targetNamespace="http://purl.org/dc/terms/"
@@ -7,8 +7,8 @@
            elementFormDefault="qualified"
            attributeFormDefault="unqualified">
 
-  <xs:annotation>
-    <xs:documentation xml:lang="en">
+  <xsd:annotation>
+    <xsd:documentation xml:lang="en">
       DCterms XML Schema
       XML Schema for http://purl.org/dc/terms/ namespace
  
@@ -57,326 +57,326 @@
       
       Add compexType definitions corresponding to ISO639-3, RFC4646.
       
-    </xs:documentation>
+    </xsd:documentation>
 
-  </xs:annotation>
+  </xsd:annotation>
 
 
-  <xs:import namespace="http://www.w3.org/XML/1998/namespace"
+  <xsd:import namespace="http://www.w3.org/XML/1998/namespace"
              schemaLocation="http://www.w3.org/2001/03/xml.xsd">
-  </xs:import>
+  </xsd:import>
 
-   <xs:import namespace="http://purl.org/dc/elements/1.1/"
+   <xsd:import namespace="http://purl.org/dc/elements/1.1/"
               schemaLocation="dc.xsd"/>
 
-   <xs:import namespace="http://purl.org/dc/dcmitype/"
+   <xsd:import namespace="http://purl.org/dc/dcmitype/"
               schemaLocation="dcmitype.xsd"/>
 
-   <xs:element name="title" substitutionGroup="dc:title"/>
-   <xs:element name="creator" substitutionGroup="dc:creator"/>
-   <xs:element name="subject" substitutionGroup="dc:subject"/>
-   <xs:element name="description" substitutionGroup="dc:description"/>
-   <xs:element name="publisher" substitutionGroup="dc:publisher"/>
-   <xs:element name="contributor" substitutionGroup="dc:contributor"/>
-   <xs:element name="date" substitutionGroup="dc:date"/>
-   <xs:element name="type" substitutionGroup="dc:type"/>
-   <xs:element name="format" substitutionGroup="dc:format"/>
-   <xs:element name="identifier" substitutionGroup="dc:identifier"/>
-   <xs:element name="source" substitutionGroup="dc:source"/>
-   <xs:element name="language" substitutionGroup="dc:language"/>
-   <xs:element name="relation" substitutionGroup="dc:relation"/>
-   <xs:element name="coverage" substitutionGroup="dc:coverage"/>
-   <xs:element name="rights" substitutionGroup="dc:rights"/>
+   <xsd:element name="title" substitutionGroup="dc:title"/>
+   <xsd:element name="creator" substitutionGroup="dc:creator"/>
+   <xsd:element name="subject" substitutionGroup="dc:subject"/>
+   <xsd:element name="description" substitutionGroup="dc:description"/>
+   <xsd:element name="publisher" substitutionGroup="dc:publisher"/>
+   <xsd:element name="contributor" substitutionGroup="dc:contributor"/>
+   <xsd:element name="date" substitutionGroup="dc:date"/>
+   <xsd:element name="type" substitutionGroup="dc:type"/>
+   <xsd:element name="format" substitutionGroup="dc:format"/>
+   <xsd:element name="identifier" substitutionGroup="dc:identifier"/>
+   <xsd:element name="source" substitutionGroup="dc:source"/>
+   <xsd:element name="language" substitutionGroup="dc:language"/>
+   <xsd:element name="relation" substitutionGroup="dc:relation"/>
+   <xsd:element name="coverage" substitutionGroup="dc:coverage"/>
+   <xsd:element name="rights" substitutionGroup="dc:rights"/>
 
-   <xs:element name="alternative" substitutionGroup="title"/>
+   <xsd:element name="alternative" substitutionGroup="title"/>
 
-   <xs:element name="tableOfContents" substitutionGroup="description"/>
-   <xs:element name="abstract" substitutionGroup="description"/>
+   <xsd:element name="tableOfContents" substitutionGroup="description"/>
+   <xsd:element name="abstract" substitutionGroup="description"/>
 
-   <xs:element name="created" substitutionGroup="date"/>
-   <xs:element name="valid" substitutionGroup="date"/>
-   <xs:element name="available" substitutionGroup="date"/>
-   <xs:element name="issued" substitutionGroup="date"/>
-   <xs:element name="modified" substitutionGroup="date"/>
-   <xs:element name="dateAccepted" substitutionGroup="date"/>
-   <xs:element name="dateCopyrighted" substitutionGroup="date"/>
-   <xs:element name="dateSubmitted" substitutionGroup="date"/>
+   <xsd:element name="created" substitutionGroup="date"/>
+   <xsd:element name="valid" substitutionGroup="date"/>
+   <xsd:element name="available" substitutionGroup="date"/>
+   <xsd:element name="issued" substitutionGroup="date"/>
+   <xsd:element name="modified" substitutionGroup="date"/>
+   <xsd:element name="dateAccepted" substitutionGroup="date"/>
+   <xsd:element name="dateCopyrighted" substitutionGroup="date"/>
+   <xsd:element name="dateSubmitted" substitutionGroup="date"/>
 
-   <xs:element name="extent" substitutionGroup="format"/>
-   <xs:element name="medium" substitutionGroup="format"/>
+   <xsd:element name="extent" substitutionGroup="format"/>
+   <xsd:element name="medium" substitutionGroup="format"/>
 
-   <xs:element name="isVersionOf" substitutionGroup="relation"/>
-   <xs:element name="hasVersion" substitutionGroup="relation"/>
-   <xs:element name="isReplacedBy" substitutionGroup="relation"/>
-   <xs:element name="replaces" substitutionGroup="relation"/>
-   <xs:element name="isRequiredBy" substitutionGroup="relation"/>
-   <xs:element name="requires" substitutionGroup="relation"/>
-   <xs:element name="isPartOf" substitutionGroup="relation"/>
-   <xs:element name="hasPart" substitutionGroup="relation"/>
-   <xs:element name="isReferencedBy" substitutionGroup="relation"/>
-   <xs:element name="references" substitutionGroup="relation"/>
-   <xs:element name="isFormatOf" substitutionGroup="relation"/>
-   <xs:element name="hasFormat" substitutionGroup="relation"/>
-   <xs:element name="conformsTo" substitutionGroup="relation"/>
+   <xsd:element name="isVersionOf" substitutionGroup="relation"/>
+   <xsd:element name="hasVersion" substitutionGroup="relation"/>
+   <xsd:element name="isReplacedBy" substitutionGroup="relation"/>
+   <xsd:element name="replaces" substitutionGroup="relation"/>
+   <xsd:element name="isRequiredBy" substitutionGroup="relation"/>
+   <xsd:element name="requires" substitutionGroup="relation"/>
+   <xsd:element name="isPartOf" substitutionGroup="relation"/>
+   <xsd:element name="hasPart" substitutionGroup="relation"/>
+   <xsd:element name="isReferencedBy" substitutionGroup="relation"/>
+   <xsd:element name="references" substitutionGroup="relation"/>
+   <xsd:element name="isFormatOf" substitutionGroup="relation"/>
+   <xsd:element name="hasFormat" substitutionGroup="relation"/>
+   <xsd:element name="conformsTo" substitutionGroup="relation"/>
 
-   <xs:element name="spatial" substitutionGroup="coverage"/>
-   <xs:element name="temporal" substitutionGroup="coverage"/>
+   <xsd:element name="spatial" substitutionGroup="coverage"/>
+   <xsd:element name="temporal" substitutionGroup="coverage"/>
 
-   <xs:element name="audience" substitutionGroup="dc:any"/>
-   <xs:element name="accrualMethod" substitutionGroup="dc:any"/>
-   <xs:element name="accrualPeriodicity" substitutionGroup="dc:any"/>
-   <xs:element name="accrualPolicy" substitutionGroup="dc:any"/>
-   <xs:element name="instructionalMethod" substitutionGroup="dc:any"/>
-   <xs:element name="provenance" substitutionGroup="dc:any"/>
-   <xs:element name="rightsHolder" substitutionGroup="dc:any"/>
+   <xsd:element name="audience" substitutionGroup="dc:any"/>
+   <xsd:element name="accrualMethod" substitutionGroup="dc:any"/>
+   <xsd:element name="accrualPeriodicity" substitutionGroup="dc:any"/>
+   <xsd:element name="accrualPolicy" substitutionGroup="dc:any"/>
+   <xsd:element name="instructionalMethod" substitutionGroup="dc:any"/>
+   <xsd:element name="provenance" substitutionGroup="dc:any"/>
+   <xsd:element name="rightsHolder" substitutionGroup="dc:any"/>
 
-   <xs:element name="mediator" substitutionGroup="audience"/>
-   <xs:element name="educationLevel" substitutionGroup="audience"/>
+   <xsd:element name="mediator" substitutionGroup="audience"/>
+   <xsd:element name="educationLevel" substitutionGroup="audience"/>
 
-   <xs:element name="accessRights" substitutionGroup="rights"/>
-   <xs:element name="license" substitutionGroup="rights"/>
+   <xsd:element name="accessRights" substitutionGroup="rights"/>
+   <xsd:element name="license" substitutionGroup="rights"/>
 
-   <xs:element name="bibliographicCitation" substitutionGroup="identifier"/>
+   <xsd:element name="bibliographicCitation" substitutionGroup="identifier"/>
 
-  <xs:complexType name="LCSH">
-   <xs:simpleContent>
-    <xs:restriction base="dc:SimpleLiteral">
-        <xs:simpleType>
-          <xs:restriction base="xs:string"/>
-        </xs:simpleType>
-        <xs:attribute ref="xml:lang" use="prohibited"/>
-    </xs:restriction>
-   </xs:simpleContent>
-  </xs:complexType>
+  <xsd:complexType name="LCSH">
+   <xsd:simpleContent>
+    <xsd:restriction base="dc:SimpleLiteral">
+        <xsd:simpleType>
+          <xsd:restriction base="xsd:string"/>
+        </xsd:simpleType>
+        <xsd:attribute ref="xml:lang" use="prohibited"/>
+    </xsd:restriction>
+   </xsd:simpleContent>
+  </xsd:complexType>
 
-  <xs:complexType name="MESH">
-   <xs:simpleContent>
-    <xs:restriction base="dc:SimpleLiteral">
-        <xs:simpleType>
-          <xs:restriction base="xs:string"/>
-        </xs:simpleType>
-        <xs:attribute ref="xml:lang" use="prohibited"/>
-    </xs:restriction>
-   </xs:simpleContent>
-  </xs:complexType>
+  <xsd:complexType name="MESH">
+   <xsd:simpleContent>
+    <xsd:restriction base="dc:SimpleLiteral">
+        <xsd:simpleType>
+          <xsd:restriction base="xsd:string"/>
+        </xsd:simpleType>
+        <xsd:attribute ref="xml:lang" use="prohibited"/>
+    </xsd:restriction>
+   </xsd:simpleContent>
+  </xsd:complexType>
 
-  <xs:complexType name="DDC">
-   <xs:simpleContent>
-    <xs:restriction base="dc:SimpleLiteral">
-        <xs:simpleType>
-          <xs:restriction base="xs:string"/>
-        </xs:simpleType>
-        <xs:attribute ref="xml:lang" use="prohibited"/>
-    </xs:restriction>
-   </xs:simpleContent>
-  </xs:complexType>
+  <xsd:complexType name="DDC">
+   <xsd:simpleContent>
+    <xsd:restriction base="dc:SimpleLiteral">
+        <xsd:simpleType>
+          <xsd:restriction base="xsd:string"/>
+        </xsd:simpleType>
+        <xsd:attribute ref="xml:lang" use="prohibited"/>
+    </xsd:restriction>
+   </xsd:simpleContent>
+  </xsd:complexType>
 
-  <xs:complexType name="LCC">
-   <xs:simpleContent>
-    <xs:restriction base="dc:SimpleLiteral">
-        <xs:simpleType>
-          <xs:restriction base="xs:string"/>
-        </xs:simpleType>
-        <xs:attribute ref="xml:lang" use="prohibited"/>
-    </xs:restriction>
-   </xs:simpleContent>
-  </xs:complexType>
+  <xsd:complexType name="LCC">
+   <xsd:simpleContent>
+    <xsd:restriction base="dc:SimpleLiteral">
+        <xsd:simpleType>
+          <xsd:restriction base="xsd:string"/>
+        </xsd:simpleType>
+        <xsd:attribute ref="xml:lang" use="prohibited"/>
+    </xsd:restriction>
+   </xsd:simpleContent>
+  </xsd:complexType>
 
-  <xs:complexType name="UDC">
-   <xs:simpleContent>
-    <xs:restriction base="dc:SimpleLiteral">
-        <xs:simpleType>
-          <xs:restriction base="xs:string"/>
-        </xs:simpleType>
-        <xs:attribute ref="xml:lang" use="prohibited"/>
-    </xs:restriction>
-   </xs:simpleContent>
-  </xs:complexType>
+  <xsd:complexType name="UDC">
+   <xsd:simpleContent>
+    <xsd:restriction base="dc:SimpleLiteral">
+        <xsd:simpleType>
+          <xsd:restriction base="xsd:string"/>
+        </xsd:simpleType>
+        <xsd:attribute ref="xml:lang" use="prohibited"/>
+    </xsd:restriction>
+   </xsd:simpleContent>
+  </xsd:complexType>
 
-  <xs:complexType name="Period">
-   <xs:simpleContent>
-    <xs:restriction base="dc:SimpleLiteral">
-        <xs:simpleType>
-          <xs:restriction base="xs:string"/>
-        </xs:simpleType>
-        <xs:attribute ref="xml:lang" use="prohibited"/>
-    </xs:restriction>
-   </xs:simpleContent>
-  </xs:complexType>
+  <xsd:complexType name="Period">
+   <xsd:simpleContent>
+    <xsd:restriction base="dc:SimpleLiteral">
+        <xsd:simpleType>
+          <xsd:restriction base="xsd:string"/>
+        </xsd:simpleType>
+        <xsd:attribute ref="xml:lang" use="prohibited"/>
+    </xsd:restriction>
+   </xsd:simpleContent>
+  </xsd:complexType>
 
-  <xs:complexType name="W3CDTF">
-   <xs:simpleContent>
-    <xs:restriction base="dc:SimpleLiteral">
-        <xs:simpleType>
-           <xs:union memberTypes="xs:gYear xs:gYearMonth xs:date xs:dateTime"/>
-        </xs:simpleType>
-        <xs:attribute ref="xml:lang" use="prohibited"/>
-    </xs:restriction>
-   </xs:simpleContent>
-  </xs:complexType> 
+  <xsd:complexType name="W3CDTF">
+   <xsd:simpleContent>
+    <xsd:restriction base="dc:SimpleLiteral">
+        <xsd:simpleType>
+           <xsd:union memberTypes="xsd:gYear xs:gYearMonth xs:date xs:dateTime"/>
+        </xsd:simpleType>
+        <xsd:attribute ref="xml:lang" use="prohibited"/>
+    </xsd:restriction>
+   </xsd:simpleContent>
+  </xsd:complexType> 
 
-  <xs:complexType name="DCMIType">
-   <xs:simpleContent>
-    <xs:restriction base="dc:SimpleLiteral">
-        <xs:simpleType>
-          <xs:restriction base="dcmitype:DCMIType"/>
-        </xs:simpleType>
-        <xs:attribute ref="xml:lang" use="prohibited"/>
-    </xs:restriction>
-   </xs:simpleContent>
-  </xs:complexType>
+  <xsd:complexType name="DCMIType">
+   <xsd:simpleContent>
+    <xsd:restriction base="dc:SimpleLiteral">
+        <xsd:simpleType>
+          <xsd:restriction base="dcmitype:DCMIType"/>
+        </xsd:simpleType>
+        <xsd:attribute ref="xml:lang" use="prohibited"/>
+    </xsd:restriction>
+   </xsd:simpleContent>
+  </xsd:complexType>
 
-  <xs:complexType name="IMT">
-   <xs:simpleContent>
-    <xs:restriction base="dc:SimpleLiteral">
-        <xs:simpleType>
-          <xs:restriction base="xs:string"/>
-        </xs:simpleType>
-        <xs:attribute ref="xml:lang" use="prohibited"/>
-    </xs:restriction>
-   </xs:simpleContent>
-  </xs:complexType>
+  <xsd:complexType name="IMT">
+   <xsd:simpleContent>
+    <xsd:restriction base="dc:SimpleLiteral">
+        <xsd:simpleType>
+          <xsd:restriction base="xsd:string"/>
+        </xsd:simpleType>
+        <xsd:attribute ref="xml:lang" use="prohibited"/>
+    </xsd:restriction>
+   </xsd:simpleContent>
+  </xsd:complexType>
 
-  <xs:complexType name="URI">
-   <xs:simpleContent>
-    <xs:restriction base="dc:SimpleLiteral">
-        <xs:simpleType>
-          <xs:restriction base="xs:anyURI"/>
-        </xs:simpleType>
-        <xs:attribute ref="xml:lang" use="prohibited"/>
-    </xs:restriction>
-   </xs:simpleContent>
-  </xs:complexType> 
+  <xsd:complexType name="URI">
+   <xsd:simpleContent>
+    <xsd:restriction base="dc:SimpleLiteral">
+        <xsd:simpleType>
+          <xsd:restriction base="xsd:anyURI"/>
+        </xsd:simpleType>
+        <xsd:attribute ref="xml:lang" use="prohibited"/>
+    </xsd:restriction>
+   </xsd:simpleContent>
+  </xsd:complexType> 
 
-  <xs:complexType name="ISO639-2">
-   <xs:simpleContent>
-    <xs:restriction base="dc:SimpleLiteral">
-        <xs:simpleType>
-          <xs:restriction base="xs:string"/>
-        </xs:simpleType>
-        <xs:attribute ref="xml:lang" use="prohibited"/>
-    </xs:restriction>
-   </xs:simpleContent>
-  </xs:complexType>
+  <xsd:complexType name="ISO639-2">
+   <xsd:simpleContent>
+    <xsd:restriction base="dc:SimpleLiteral">
+        <xsd:simpleType>
+          <xsd:restriction base="xsd:string"/>
+        </xsd:simpleType>
+        <xsd:attribute ref="xml:lang" use="prohibited"/>
+    </xsd:restriction>
+   </xsd:simpleContent>
+  </xsd:complexType>
 
-  <xs:complexType name="ISO639-3">
-   <xs:simpleContent>
-    <xs:restriction base="dc:SimpleLiteral">
-        <xs:simpleType>
-          <xs:restriction base="xs:string"/>
-        </xs:simpleType>
-        <xs:attribute ref="xml:lang" use="prohibited"/>
-    </xs:restriction>
-   </xs:simpleContent>
-  </xs:complexType>
+  <xsd:complexType name="ISO639-3">
+   <xsd:simpleContent>
+    <xsd:restriction base="dc:SimpleLiteral">
+        <xsd:simpleType>
+          <xsd:restriction base="xsd:string"/>
+        </xsd:simpleType>
+        <xsd:attribute ref="xml:lang" use="prohibited"/>
+    </xsd:restriction>
+   </xsd:simpleContent>
+  </xsd:complexType>
 
-  <xs:complexType name="RFC1766">
-   <xs:simpleContent>
-    <xs:restriction base="dc:SimpleLiteral">
-        <xs:simpleType>
-          <xs:restriction base="xs:language"/>
-        </xs:simpleType>
-        <xs:attribute ref="xml:lang" use="prohibited"/>
-    </xs:restriction>
-   </xs:simpleContent>
-  </xs:complexType>
+  <xsd:complexType name="RFC1766">
+   <xsd:simpleContent>
+    <xsd:restriction base="dc:SimpleLiteral">
+        <xsd:simpleType>
+          <xsd:restriction base="xsd:language"/>
+        </xsd:simpleType>
+        <xsd:attribute ref="xml:lang" use="prohibited"/>
+    </xsd:restriction>
+   </xsd:simpleContent>
+  </xsd:complexType>
 
-  <xs:complexType name="RFC3066">
-   <xs:simpleContent>
-    <xs:restriction base="dc:SimpleLiteral">
-        <xs:simpleType>
-          <xs:restriction base="xs:language"/>
-        </xs:simpleType>
-        <xs:attribute ref="xml:lang" use="prohibited"/>
-    </xs:restriction>
-   </xs:simpleContent>
-  </xs:complexType>
+  <xsd:complexType name="RFC3066">
+   <xsd:simpleContent>
+    <xsd:restriction base="dc:SimpleLiteral">
+        <xsd:simpleType>
+          <xsd:restriction base="xsd:language"/>
+        </xsd:simpleType>
+        <xsd:attribute ref="xml:lang" use="prohibited"/>
+    </xsd:restriction>
+   </xsd:simpleContent>
+  </xsd:complexType>
 
-  <xs:complexType name="RFC4646">
-   <xs:simpleContent>
-    <xs:restriction base="dc:SimpleLiteral">
-        <xs:simpleType>
-          <xs:restriction base="xs:language"/>
-        </xs:simpleType>
-        <xs:attribute ref="xml:lang" use="prohibited"/>
-    </xs:restriction>
-   </xs:simpleContent>
-  </xs:complexType>
+  <xsd:complexType name="RFC4646">
+   <xsd:simpleContent>
+    <xsd:restriction base="dc:SimpleLiteral">
+        <xsd:simpleType>
+          <xsd:restriction base="xsd:language"/>
+        </xsd:simpleType>
+        <xsd:attribute ref="xml:lang" use="prohibited"/>
+    </xsd:restriction>
+   </xsd:simpleContent>
+  </xsd:complexType>
 
-  <xs:complexType name="Point">
-   <xs:simpleContent>
-    <xs:restriction base="dc:SimpleLiteral">
-        <xs:simpleType>
-          <xs:restriction base="xs:string"/>
-        </xs:simpleType>
-        <xs:attribute ref="xml:lang" use="prohibited"/>
-    </xs:restriction>
-   </xs:simpleContent>
-  </xs:complexType>
+  <xsd:complexType name="Point">
+   <xsd:simpleContent>
+    <xsd:restriction base="dc:SimpleLiteral">
+        <xsd:simpleType>
+          <xsd:restriction base="xsd:string"/>
+        </xsd:simpleType>
+        <xsd:attribute ref="xml:lang" use="prohibited"/>
+    </xsd:restriction>
+   </xsd:simpleContent>
+  </xsd:complexType>
 
-  <xs:complexType name="ISO3166">
-   <xs:simpleContent>
-    <xs:restriction base="dc:SimpleLiteral">
-        <xs:simpleType>
-          <xs:restriction base="xs:string"/>
-        </xs:simpleType>
-        <xs:attribute ref="xml:lang" use="prohibited"/>
-    </xs:restriction>
-   </xs:simpleContent>
-  </xs:complexType>
+  <xsd:complexType name="ISO3166">
+   <xsd:simpleContent>
+    <xsd:restriction base="dc:SimpleLiteral">
+        <xsd:simpleType>
+          <xsd:restriction base="xsd:string"/>
+        </xsd:simpleType>
+        <xsd:attribute ref="xml:lang" use="prohibited"/>
+    </xsd:restriction>
+   </xsd:simpleContent>
+  </xsd:complexType>
 
-  <xs:complexType name="Box">
-   <xs:simpleContent>
-    <xs:restriction base="dc:SimpleLiteral">
-        <xs:simpleType>
-          <xs:restriction base="xs:string"/>
-        </xs:simpleType>
-        <xs:attribute ref="xml:lang" use="prohibited"/>
-    </xs:restriction>
-   </xs:simpleContent>
-  </xs:complexType>
+  <xsd:complexType name="Box">
+   <xsd:simpleContent>
+    <xsd:restriction base="dc:SimpleLiteral">
+        <xsd:simpleType>
+          <xsd:restriction base="xsd:string"/>
+        </xsd:simpleType>
+        <xsd:attribute ref="xml:lang" use="prohibited"/>
+    </xsd:restriction>
+   </xsd:simpleContent>
+  </xsd:complexType>
 
-  <xs:complexType name="TGN">
-   <xs:simpleContent>
-    <xs:restriction base="dc:SimpleLiteral">
-        <xs:simpleType>
-          <xs:restriction base="xs:string"/>
-        </xs:simpleType>
-        <xs:attribute ref="xml:lang" use="prohibited"/>
-    </xs:restriction>
-   </xs:simpleContent>
-  </xs:complexType>
+  <xsd:complexType name="TGN">
+   <xsd:simpleContent>
+    <xsd:restriction base="dc:SimpleLiteral">
+        <xsd:simpleType>
+          <xsd:restriction base="xsd:string"/>
+        </xsd:simpleType>
+        <xsd:attribute ref="xml:lang" use="prohibited"/>
+    </xsd:restriction>
+   </xsd:simpleContent>
+  </xsd:complexType>
 
-  <xs:group name="elementsAndRefinementsGroup">
-  	<xs:annotation>
-    	<xs:documentation xml:lang="en">
+  <xsd:group name="elementsAndRefinementsGroup">
+  	<xsd:annotation>
+    	<xsd:documentation xml:lang="en">
     		This group is included as a convenience for schema authors
             who need to refer to all the DC elements and element refinements 
             in the http://purl.org/dc/elements/1.1/ and 
             http://purl.org/dc/terms namespaces. 
             N.B. Refinements available via substitution groups.
-    	</xs:documentation>
-  	</xs:annotation>
+    	</xsd:documentation>
+  	</xsd:annotation>
 
-  <xs:sequence>
-    <xs:choice minOccurs="0" maxOccurs="unbounded">
-	<xs:element ref="dc:any" />
-    </xs:choice>
-  </xs:sequence>
-  </xs:group>	
+  <xsd:sequence>
+    <xsd:choice minOccurs="0" maxOccurs="unbounded">
+	<xsd:element ref="dc:any" />
+    </xsd:choice>
+  </xsd:sequence>
+  </xsd:group>	
 
-  <xs:complexType name="elementOrRefinementContainer">
-  	<xs:annotation>
-    	<xs:documentation xml:lang="en">
+  <xsd:complexType name="elementOrRefinementContainer">
+  	<xsd:annotation>
+    	<xsd:documentation xml:lang="en">
     		This is included as a convenience for schema authors who need to define a root
     		or container element for all of the DC elements and element refinements.
-    	</xs:documentation>
-  	</xs:annotation>
+    	</xsd:documentation>
+  	</xsd:annotation>
 
-    <xs:choice>
-      <xs:group ref="elementsAndRefinementsGroup"/>
-    </xs:choice>
-  </xs:complexType>
+    <xsd:choice>
+      <xsd:group ref="elementsAndRefinementsGroup"/>
+    </xsd:choice>
+  </xsd:complexType>
 
 
-</xs:schema>
+</xsd:schema>

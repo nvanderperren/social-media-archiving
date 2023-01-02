@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <premis:premis version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:premis="http://www.loc.gov/premis/v3" xsi:schemaLocation="http://www.loc.gov/premis/v3 ../../schemas/premis.xsd">
-    <premis:object>
+    <premis:object xsi:type="premis:representation">
         <premis:objectIdentifier>
             <premis:objectIdentifierType>UUID</premis:objectIdentifierType>
             <premis:objectIdentifierValue>bd3c9c63-bdba-42d0-b4c9-81f381ae3831</premis:objectIdentifierValue>
         </premis:objectIdentifier>
-        <premis:objectCategory authority="objectCategory" authorityURI="http://id.loc.gov/vocabulary/preservation/objectCategory" 
-            valueURI="https://id.loc.gov/vocabulary/preservation/objectCategory/int">intellectual entity</premis:objectCategory>
         <premis:relationship>
             <premis:relationshipType authority="relationshipType" 
             authorityURI="http://id.loc.gov/vocabulary/preservation/relationshipType" valueURI="http://id.loc.gov/vocabulary/preservation/relationshipType/str"
