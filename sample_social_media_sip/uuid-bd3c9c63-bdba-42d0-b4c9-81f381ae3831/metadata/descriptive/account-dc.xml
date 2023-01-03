@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<metadata xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:edtf="http://id.loc.gov/datatypes/edtf/"
+xsi:schemaLocation="http://purl.org/dc/terms/ https://www.dublincore.org/schemas/xmls/qdc/dcterms.xsd">
+    <dcterms:identifier xsi:type="dcterms:URI">https://twitter.com/PACKEDvzw</dcterms:identifier>
+    <dcterms:type xsi:type="dcterms:DCMIType">InteractiveResource</dcterms:type>
+    <dcterms:type>https://www.wikidata.org/entity/Q102345381</dcterms:type>
+    <dcterms:title xml:lang="nl">Twitter PACKED vzw</dcterms:title>
+    <dcterms:creator>PACKED vzw</dcterms:creator>
+    <dcterms:publisher>Twitter</dcterms:publisher>
+    <dcterms:rights>https://rightsstatements.org/page/InC/1.0/</dcterms:rights>
+    <dcterms:created xsi:type="dcterms:W3CDTF">2012-06-14</dcterms:created>
+</metadata>
