@@ -42,6 +42,7 @@ LABEL="Twitter account of PACKEDvzw 2012-2020">
         CHECKSUMTYPE="MD5" />
     </mets:dmdSec>
     <mets:amdSec ID="amd1">
+        <!-- wat doen met de rightsMD? en met de rechten in het algemeen? -->
         <mets:rightsMD ID="rmd_1">
             <mets:mdWrap MIMETYPE="text/xml" MDTYPE="PREMIS:RIGHTS">
                 <mets:xmlData>
@@ -82,7 +83,6 @@ LABEL="Twitter account of PACKEDvzw 2012-2020">
             CREATED="2022-01-14T15:46:00+01:00" CHECKSUM="f09760182cef559bb18533e98ce78903"
             CHECKSUMTYPE="MD5" />
         </mets:digiprovMD>
-        <!-- wat doen met de rightsMD? en met de rechten in het algemeen? -->
     </mets:amdSec>
     <mets:fileSec ID="fsec1">
         <mets:fileGrp ID="reps" USE="Representations/representation_1" csip:CONTENTINFORMATIONTYPE="RAW-CONTENT">

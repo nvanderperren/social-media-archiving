@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="https://DILCIS.eu/XML/METS/SIPExtensionMETS"
-    targetNamespace="https://DILCIS.eu/XML/METS/SIPExtensionMETS" elementFormDefault="qualified">
-    <xsd:attribute name="FILEFORMATNAME" type="xsd:string"/>
-    <xsd:attribute name="FILEFORMATVERSION" type="xsd:string"/>
-    <xsd:attribute name="FORMATREGISTRY" type="xsd:string"/>
-    <xsd:attribute name="FORMATREGISTRYKEY" type="xsd:string"/>
-</xsd:schema>

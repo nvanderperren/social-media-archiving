@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 xmlns:xlink="http://www.w3.org/1999/xlink"  xmlns:csip="https://dilcis.eu/XML/METS/CSIPExtensionMETS" 
-xmlns:sip="https://DILCIS.eu/XML/METS/SIPExtensionMETS"
-xsi:schemaLocation="https://www.w3.org./1999/xlink ../../schemas/xlink.xsd
+xsi:schemaLocation="https://www.w3.org./1999/xlink http://www.loc.gov/standards/xlink/xlink.xsd 
 http://www.loc.gov/METS/ https://www.loc.gov/standards/mets/mets.xsd
-https://dilcis.eu/XML/METS/CSIPExtensionMETS ../../schemas/DILCISExtensionMETS.xsd
-https://dilcis.eu/XML/METS/SIPExtensionMETS ../../schemas/DILCISExtensionSIPMETS.xsd"
+https://dilcis.eu/XML/METS/CSIPExtensionMETS https://earkcsip.dilcis.eu/schema/DILCISExtensionMETS.xsd
+http://www.loc.gov/premis/v3  https://www.loc.gov/standards/premis/premis.xsd"
 PROFILE="https://earksip.dilcis.eu/profile/E-ARK-SIP.xml"
 TYPE="OTHER" csip:OTHERTYPE="TEXT SCRAPE" OBJID="representation_1"
 LABEL="text scrape van https://twitter.com/PACKEDvzw">
