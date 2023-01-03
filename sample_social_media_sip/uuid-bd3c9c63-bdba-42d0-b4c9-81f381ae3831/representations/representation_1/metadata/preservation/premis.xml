@@ -13,12 +13,6 @@ xmlns:premis="http://www.loc.gov/premis/v3" xsi:schemaLocation="http://www.loc.g
             <premis:objectIdentifierValue>E16F71E1-33AC-4C47-92CA-6D3561A8735D</premis:objectIdentifierValue>
         </premis:objectIdentifier>
 
-        <premis:preservationLevel>
-            <premis:preservationLevelType>bit preservation</premis:preservationLevelType>
-            <premis:preservationLevelValue>1</premis:preservationLevelValue>
-            <premis:preservationLevelRole>requirement</premis:preservationLevelRole>
-        </premis:preservationLevel>
-
         <!-- relationship representation and file -->
 
         <premis:relationship>
@@ -53,6 +47,12 @@ xmlns:premis="http://www.loc.gov/premis/v3" xsi:schemaLocation="http://www.loc.g
             <premis:objectIdentifierValue>e5dba7c8-11b7-40bc-995a-8c74b107e567</premis:objectIdentifierValue>
         </premis:objectIdentifier>
 
+        <premis:preservationLevel>
+            <premis:preservationLevelType>bit preservation</premis:preservationLevelType>
+            <premis:preservationLevelValue>1</premis:preservationLevelValue>
+            <premis:preservationLevelRole>requirement</premis:preservationLevelRole>
+        </premis:preservationLevel>
+
          <premis:objectCharacteristics>
             <premis:fixity>
                 <premis:messageDigestAlgorithm authority="cryptographicHashFunctions" authorityURI="http://id.loc.gov/vocabulary/preservation/cryptographicHashFunctions" 
@@ -71,8 +71,7 @@ xmlns:premis="http://www.loc.gov/premis/v3" xsi:schemaLocation="http://www.loc.g
 
         <premis:originalName>20210325_twitter_packed_snscrape.jsonl</premis:originalName>
 
-        
-        <!-- relationship file and representation -->
+     <!-- relationship file and representation -->
         <premis:relationship>
             <premis:relationshipType authority="relationshipType" 
             authorityURI="http://id.loc.gov/vocabulary/preservation/relationshipType" 
@@ -86,9 +85,7 @@ xmlns:premis="http://www.loc.gov/premis/v3" xsi:schemaLocation="http://www.loc.g
             </premis:relatedObjectIdentifier>
         </premis:relationship>
 
-        
-
-       
+    
     </premis:object>
 
     <premis:event>

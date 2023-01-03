@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <mets:mets xmlns:mets="http://www.loc.gov/METS/" 
-xmlns:csip="https://dilcis.eu/XML/METS/CSIPExtensionMETS" 
-xmlns:sip="https://DILCIS.eu/XML/METS/SIPExtensionMETS" xmlns:premis="http://www.loc.gov/premis/v3"
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xmlns:xlink="http://www.w3.org/1999/xlink"  
-xsi:schemaLocation="https://www.w3.org./1999/xlink ./schemas/xlink.xsd 
+xmlns:csip="https://dilcis.eu/XML/METS/CSIPExtensionMETS" xmlns:sip="https://DILCIS.eu/XML/METS/SIPExtensionMETS" xmlns:premis="http://www.loc.gov/premis/v3"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink"  
+xsi:schemaLocation="https://www.w3.org./1999/xlink http://www.loc.gov/standards/xlink/xlink.xsd 
 http://www.loc.gov/METS/ https://www.loc.gov/standards/mets/mets.xsd
-https://dilcis.eu/XML/METS/CSIPExtensionMETS ./schemas/DILCISExtensionMETS.xsd
-https://dilcis.eu/XML/METS/SIPExtensionMETS ./schemas/DILCISExtensionSIPMETS.xsd 
-http://www.loc.gov/premis/v3  ./schemas/premis.xsd"
+https://dilcis.eu/XML/METS/CSIPExtensionMETS https://earkcsip.dilcis.eu/schema/DILCISExtensionMETS.xsd
+https://dilcis.eu/XML/METS/SIPExtensionMETS https://earksip.dilcis.eu/schema/DILCISExtensionSIPMETS.xsd 
+http://www.loc.gov/premis/v3  https://www.loc.gov/standards/premis/premis.xsd"
 PROFILE="https://earksip.dilcis.eu/profile/E-ARK-SIP.xml"
 csip:CONTENTINFORMATIONTYPE="https://data.hetarchief.be/id/sip/1.1/social-media-streams"
 TYPE="OTHER" csip:OTHERTYPE="SOCIAL MEDIA STREAM" OBJID="uuid-bd3c9c63-bdba-42d0-b4c9-81f381ae3831"
