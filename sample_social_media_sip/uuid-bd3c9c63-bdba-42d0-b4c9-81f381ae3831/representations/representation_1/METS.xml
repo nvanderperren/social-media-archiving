@@ -3,7 +3,7 @@
 xmlns:xlink="http://www.w3.org/1999/xlink"  xmlns:csip="https://dilcis.eu/XML/METS/CSIPExtensionMETS" 
 xmlns:sip="https://DILCIS.eu/XML/METS/SIPExtensionMETS"
 xsi:schemaLocation="https://www.w3.org./1999/xlink ../../schemas/xlink.xsd
-http://www.loc.gov/METS/ ../../schemas/mets.xsd
+http://www.loc.gov/METS/ https://www.loc.gov/standards/mets/mets.xsd
 https://dilcis.eu/XML/METS/CSIPExtensionMETS ../../schemas/DILCISExtensionMETS.xsd
 https://dilcis.eu/XML/METS/SIPExtensionMETS ../../schemas/DILCISExtensionSIPMETS.xsd"
 PROFILE="https://earksip.dilcis.eu/profile/E-ARK-SIP.xml"
