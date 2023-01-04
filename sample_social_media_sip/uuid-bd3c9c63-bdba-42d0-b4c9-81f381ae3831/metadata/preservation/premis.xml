@@ -2,9 +2,12 @@
 <premis:premis version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:premis="http://www.loc.gov/premis/v3" xsi:schemaLocation="http://www.loc.gov/premis/v3 
 https://www.loc.gov/standards/premis/v3/premis-v3-0.xsd">
     <premis:object xsi:type="premis:representation">
+        <!-- ik heb de stream-dc.xml als object opgenomen, dus de premis:identifier == stream-dc/dcterms:identifier
+        het account-dc.xml is enkel extra metadata over de stream die hier niet hoort gelinkt te worden
+        met iets? -->
         <premis:objectIdentifier>
             <premis:objectIdentifierType>UUID</premis:objectIdentifierType>
-            <premis:objectIdentifierValue>bd3c9c63-bdba-42d0-b4c9-81f381ae3831</premis:objectIdentifierValue>
+            <premis:objectIdentifierValue>uuid-bd3c9c63-bdba-42d0-b4c9-81f381ae3831</premis:objectIdentifierValue>
         </premis:objectIdentifier>
         <premis:relationship>
             <premis:relationshipType authority="relationshipType" 
@@ -19,7 +22,9 @@ https://www.loc.gov/standards/premis/v3/premis-v3-0.xsd">
         </premis:relationship>
     </premis:object>
 
-    <!--checken met team mimi of hier een event van gemaakt wordt -->
+    <!--checken met team metadata of hier een event van gemaakt wordt.
+    ik denk het niet als ik op de samples en profielen afga
+    als er geen event gemaakt wordt, kunnen premis:event en premis:agent weg -->
     <premis:event>
         <premis:eventIdentifier>
             <premis:eventIdentifierType>UUID</premis:eventIdentifierType>
@@ -36,7 +41,7 @@ https://www.loc.gov/standards/premis/v3/premis-v3-0.xsd">
         <premis:linkingAgentIdentifier>
             <premis:linkingAgentIdentifierType>UUID</premis:linkingAgentIdentifierType>
             <premis:linkingAgentIdentifierValue>3be0bc38-27bf-4e8f-bf04-053bea3137b7</premis:linkingAgentIdentifierValue>
-            <premis:linkingAgentRole>implementer</premis:linkingAgentRole>
+            <premis:linkingAgentRole>executing program</premis:linkingAgentRole>
         </premis:linkingAgentIdentifier>
     </premis:event>
 
@@ -45,8 +50,8 @@ https://www.loc.gov/standards/premis/v3/premis-v3-0.xsd">
             <premis:agentIdentifierType>UUID</premis:agentIdentifierType>
             <premis:agentIdentifierValue>3be0bc38-27bf-4e8f-bf04-053bea3137b7</premis:agentIdentifierValue>
         </premis:agentIdentifier>
-        <premis:agentName>Nastasia Vanderperren</premis:agentName>
-        <premis:agentType>person</premis:agentType>
+        <premis:agentName>meemoo SIP Creator</premis:agentName>
+        <premis:agentType>software</premis:agentType>
     </premis:agent>
 
     <premis:rights>
