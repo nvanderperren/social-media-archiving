@@ -3,11 +3,10 @@
 cookies
 *.txt
 !sample_social_media_sip/uuid-bd3c9c63-bdba-42d0-b4c9-81f381ae3831/*.txt
-*.json*
+*.json
 *prod*
 warcs/
 *MacBook-Pr*
 rethinkdb_data/
 crawls/
-!20210325_twitter_packed_snscrape.jsonl
 samples/
