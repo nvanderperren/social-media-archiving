@@ -60,7 +60,8 @@ https://www.loc.gov/standards/premis/v3/premis-v3-0.xsd">
                 <premis:rightsStatementIdentifierType>UUID</premis:rightsStatementIdentifierType>
                 <premis:rightsStatementIdentifierValue>8ae76973-ba64-4945-8985-87940bdf7b93</premis:rightsStatementIdentifierValue>
             </premis:rightsStatementIdentifier>
-            <premis:rightsBasis>license</premis:rightsBasis>
+            <premis:rightsBasis authority="rightsBasis" authorityURI="http://id.loc.gov/vocabulary/preservation/rightsBasis" 
+            valueURI="https://id.loc.gov/vocabulary/preservation/rightsBasis/lic">license</premis:rightsBasis>
             <premis:licenseInformation>
                 <premis:licenseDocumentationIdentifier>
                     <premis:licenseDocumentationIdentifierType>URI</premis:licenseDocumentationIdentifierType>

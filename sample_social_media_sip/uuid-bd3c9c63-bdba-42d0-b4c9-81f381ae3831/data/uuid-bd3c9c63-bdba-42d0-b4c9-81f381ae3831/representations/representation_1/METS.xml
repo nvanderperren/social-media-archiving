@@ -11,7 +11,7 @@ LABEL="text scrape van https://twitter.com/PACKEDvzw">
     <mets:metsHdr CREATEDATE="2021-01-17T10:59:32+02:00" csip:OAISPACKAGETYPE="SIP" />
 
     <mets:amdSec ID="uuid-edc6ad92-2413-4c78-8097-e3b1225e55f0">
-        <mets:digiprovMD ID="uuid-c1f2c0e2-065d-4a6e-b034-6a4850db2894">
+        <mets:digiprovMD ID="uuid-c1f2c0e2-065d-4a6e-b034-6a4850db2894" STATUS="CURRENT">
             <mets:mdRef LOCTYPE="URL" xlink:type="simple" xlink:href="./metadata/preservation/premis.xml" 
             MDTYPE="PREMIS" MIMETYPE="application/xml" SIZE="2930"
             CREATED="2022-10-28T12:24:07+01:00" CHECKSUM="3c58290e510d6e5714a48bb6818cc61d"
@@ -20,19 +20,20 @@ LABEL="text scrape van https://twitter.com/PACKEDvzw">
     </mets:amdSec>
 
     <mets:fileSec ID="uuid-6ac0a3ff-a207-4621-9d67-d14997b74e86">
-        <mets:fileGrp ID="uuid-d2ab635b-8584-4132-974f-2bad326e1338" USE="data">
+        <mets:fileGrp ID="uuid-d2ab635b-8584-4132-974f-2bad326e1338" USE="Data">
             <mets:file ID="uuid-2df5b441-d8e0-45f9-87ea-e0580360292a" MIMETYPE="application/jsonlines" SIZE="2859318" CREATED="2021-03-25T08:23:00" 
-            CHECKSUM="038b8ee3495eeeff908bf755eea419ed" CHECKSUMTYPE="MD5" ADMID="uuid-c1f2c0e2-065d-4a6e-b034-6a4850db2894">
+            CHECKSUM="038b8ee3495eeeff908bf755eea419ed" CHECKSUMTYPE="MD5">
             <!-- vraag: kunnen we ADMID niet beter op niveau van de filegrp zetten? situatie is 1 premis.xml -->
                 <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="./data/20210325_twitter_packed_snscrape.jsonl" />
             </mets:file>
         </mets:fileGrp>
-        <mets:fileGrp ID="uuid-34b3ec93-b3f0-4d60-8635-f24149e9946e" USE="documentation">
+        <mets:fileGrp ID="uuid-34b3ec93-b3f0-4d60-8635-f24149e9946e" USE="Documentation">
             <mets:file ID="uuid-8183de9d-5d6e-4ce4-b870-acbce1016a58" MIMETYPE="text/yaml" SIZE="855" CREATED="2021-03-25T08:23:00" CHECKSUM="02c29fef3a0a86e8a27ecd3268a557f3" 
             CHECKSUMTYPE="MD5">
                 <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="./documentation/config.yml" />
             </mets:file>
         </mets:fileGrp>
+        <mets:fileGrp ID="uuid-96bc16d4-803d-4628-8400-57dfa9bfe5e1" USE="Schemas"></mets:fileGrp>
     </mets:fileSec>
     
     <mets:structMap ID="uuid-17f820ef-de9b-4f4d-a134-ad2d022480e3" TYPE="physical" LABEL="CSIP">

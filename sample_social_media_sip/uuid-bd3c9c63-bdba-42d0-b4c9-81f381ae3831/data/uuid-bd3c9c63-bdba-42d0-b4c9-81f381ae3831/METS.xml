@@ -35,7 +35,7 @@ voorlopig is het ook een zelfverzonnen URL gebaseerd op de gepubliceerde profile
             <mets:note>nastasia.vanderperren@meemoo.be</mets:note>
         </mets:agent>
         <mets:agent ROLE="PRESERVATION" TYPE="ORGANIZATION">
-            <mets:name>meemoo, Vlaams instituut voor het archef</mets:name>
+            <mets:name>meemoo, Vlaams instituut voor het archief</mets:name>
         </mets:agent>
     </mets:metsHdr>
     
@@ -53,7 +53,7 @@ voorlopig is het ook een zelfverzonnen URL gebaseerd op de gepubliceerde profile
     
     <mets:amdSec ID="uuid-e3afc8af-105d-4d21-9aeb-b509721fdf71">
         <!-- wat doen met de rightsMD? en met de rechten in het algemeen? -->
-        <mets:digiprovMD ID="uuid-5e3efa30-21ea-474c-a63c-730ad11cba68">
+        <mets:digiprovMD ID="uuid-5e3efa30-21ea-474c-a63c-730ad11cba68" STATUS="CURRENT">
             <mets:mdRef LOCTYPE="URL" xlink:type="simple" xlink:href="./metadata/preservation/premis.xml"
             MDTYPE="PREMIS" MIMETYPE="application/xml" SIZE="596"
             CREATED="2022-01-14T15:46:00+01:00" CHECKSUM="f09760182cef559bb18533e98ce78903"
@@ -69,10 +69,12 @@ voorlopig is het ook een zelfverzonnen URL gebaseerd op de gepubliceerde profile
                 <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="./representations/representation_1/METS.xml" />
             </mets:file>
         </mets:fileGrp>
+        <mets:fileGrp ID="uuid-40ad61d6-cc69-40d5-b1d4-6081f3ded392" USE="Documentation" />
+        <mets:fileGrp ID="uuid-3eab1d4d-d2ee-4d61-9b42-30ea7ba772d3" USE="Schemas" />
     </mets:fileSec>
     
     <mets:structMap ID="uuid-0a82fb06-5475-46c2-b041-be220edc3d42" TYPE="PHISICAL" LABEL="CSIP">
-        <mets:div ID="uuid-b739018c-742a-42f8-8aec-60583321f507" LABEL="uuid-bd3c9c63-bdba-42d0-b4c9-81f381ae3831">
+        <mets:div ID="uuid-b739018c-742a-42f8-8aec-60583321f507">
             <mets:div ID="uuid-1f9bedb1-9408-4534-965c-e00d0826f45d" LABEL="metadata" ADMID="uuid-e3afc8af-105d-4d21-9aeb-b509721fdf71" 
             DMDID="uuid-dffb2665-7c46-4e44-82d3-d8e9a13dfca6 uuid-d7f3d343-341a-4481-8fb6-a2367fee6102" />
             <mets:div ID="uuid-fe4eec1f-0b39-431e-bd1a-35eacc24fe38" LABEL="representations/representation_1">
