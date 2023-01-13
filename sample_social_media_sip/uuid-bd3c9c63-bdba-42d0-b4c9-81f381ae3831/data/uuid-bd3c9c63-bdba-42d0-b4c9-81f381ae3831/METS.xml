@@ -9,7 +9,7 @@ https://dilcis.eu/XML/METS/SIPExtensionMETS https://earksip.dilcis.eu/schema/DIL
 PROFILE="https://earksip.dilcis.eu/profile/E-ARK-SIP.xml"
 csip:CONTENTINFORMATIONTYPE="https://data.hetarchief.be/id/sip/1.1/social-media-streams"
 TYPE="OTHER" csip:OTHERTYPE="SOCIAL MEDIA STREAM" OBJID="uuid-bd3c9c63-bdba-42d0-b4c9-81f381ae3831"
-LABEL="Twitter account of PACKEDvzw 2012-2020">
+LABEL="Package METS Twitter PACKEDvzw">
 <!-- csip:contentinformationtype moet eigenlijk een fixed list van csip volgen.
 voorlopig is het ook een zelfverzonnen URL gebaseerd op de gepubliceerde profiles van meemoo -->
 
@@ -39,13 +39,13 @@ voorlopig is het ook een zelfverzonnen URL gebaseerd op de gepubliceerde profile
         </mets:agent>
     </mets:metsHdr>
     
-    <mets:dmdSec ID="uuid-dffb2665-7c46-4e44-82d3-d8e9a13dfca6" CREATED="2022-10-27T13:59:32+02:00" STATUS="CURRENT">
+    <mets:dmdSec ID="dmd1" CREATED="2022-10-27T13:59:32+02:00" STATUS="CURRENT">
         <mets:mdRef LOCTYPE="URL" xlink:type="simple" xlink:href="./metadata/descriptive/account-dc.xml"
         MDTYPE="DC" MIMETYPE="application/xml" SIZE="1056" CREATED="2022-10-27T12:22:00+02:00" CHECKSUM="d17a3e416eb511a97a7e000d3830e771"
         CHECKSUMTYPE="MD5" />
     </mets:dmdSec>
     
-    <mets:dmdSec ID="uuid-d7f3d343-341a-4481-8fb6-a2367fee6102" CREATED="2022-10-27T14:00:32+02:00" STATUS="CURRENT">
+    <mets:dmdSec ID="dmd2" CREATED="2022-10-27T14:00:32+02:00" STATUS="CURRENT">
         <mets:mdRef LOCTYPE="URL" xlink:type="simple" xlink:href="./metadata/descriptive/stream-dc.xml"
         MDTYPE="DC" MIMETYPE="application/xml" SIZE="916" CREATED="2022-10-27T10:09:00+02:00" CHECKSUM="a113774b4d705f6eed8f0eee1fa870fa"
         CHECKSUMTYPE="MD5" />    
@@ -75,8 +75,8 @@ voorlopig is het ook een zelfverzonnen URL gebaseerd op de gepubliceerde profile
     
     <mets:structMap ID="uuid-0a82fb06-5475-46c2-b041-be220edc3d42" TYPE="PHISICAL" LABEL="CSIP">
         <mets:div ID="uuid-b739018c-742a-42f8-8aec-60583321f507">
-            <mets:div ID="uuid-1f9bedb1-9408-4534-965c-e00d0826f45d" LABEL="metadata" ADMID="uuid-e3afc8af-105d-4d21-9aeb-b509721fdf71" 
-            DMDID="uuid-dffb2665-7c46-4e44-82d3-d8e9a13dfca6 uuid-d7f3d343-341a-4481-8fb6-a2367fee6102" />
+            <mets:div ID="uuid-1f9bedb1-9408-4534-965c-e00d0826f45d" LABEL="metadata" ADMID="uuid-5e3efa30-21ea-474c-a63c-730ad11cba68" 
+            DMDID="dmd1 dmd2" />
             <mets:div ID="uuid-fe4eec1f-0b39-431e-bd1a-35eacc24fe38" LABEL="representations/representation_1">
                 <mets:mptr LOCTYPE="URL" xlink:type="simple" xlink:href="./representations/representation_1/METS.xml" xlink:title="TEXT SCRAPE" />
             </mets:div>
