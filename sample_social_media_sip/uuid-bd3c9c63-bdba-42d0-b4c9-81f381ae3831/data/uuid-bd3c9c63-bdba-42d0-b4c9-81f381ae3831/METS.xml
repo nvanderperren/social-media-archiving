@@ -78,7 +78,7 @@ voorlopig is het ook een zelfverzonnen URL gebaseerd op de gepubliceerde profile
             <mets:div ID="uuid-1f9bedb1-9408-4534-965c-e00d0826f45d" LABEL="metadata" ADMID="uuid-5e3efa30-21ea-474c-a63c-730ad11cba68" 
             DMDID="dmd1 dmd2" />
             <mets:div ID="uuid-fe4eec1f-0b39-431e-bd1a-35eacc24fe38" LABEL="representations/representation_1">
-                <mets:mptr LOCTYPE="URL" xlink:type="simple" xlink:href="./representations/representation_1/METS.xml" xlink:title="TEXT SCRAPE" />
+                <mets:mptr LOCTYPE="URL" xlink:type="simple" xlink:href="./representations/representation_1/METS.xml" xlink:title="uuid-37c665e2-960b-4486-8729-89ae68227c10" />
             </mets:div>
         </mets:div>
     </mets:structMap>
