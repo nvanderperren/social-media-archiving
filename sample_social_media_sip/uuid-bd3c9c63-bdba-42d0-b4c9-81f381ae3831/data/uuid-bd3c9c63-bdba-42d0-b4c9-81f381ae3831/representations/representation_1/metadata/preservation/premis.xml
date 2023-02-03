@@ -10,7 +10,7 @@ https://www.loc.gov/standards/premis/premis.xsd">
 
         <premis:objectIdentifier>
             <premis:objectIdentifierType>UUID</premis:objectIdentifierType>
-            <premis:objectIdentifierValue>E16F71E1-33AC-4C47-92CA-6D3561A8735D</premis:objectIdentifierValue>
+            <premis:objectIdentifierValue>e16f71e1-33ac-4c47-92ca-6d3561a8735d</premis:objectIdentifierValue>
         </premis:objectIdentifier>
 
         <!-- relationship representation and file -->

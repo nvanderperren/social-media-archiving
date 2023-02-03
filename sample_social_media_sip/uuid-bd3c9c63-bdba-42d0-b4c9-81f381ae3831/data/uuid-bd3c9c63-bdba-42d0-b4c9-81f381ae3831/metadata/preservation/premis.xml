@@ -17,7 +17,7 @@ https://www.loc.gov/standards/premis/v3/premis-v3-0.xsd">
             valueURI="http://id.loc.gov/vocabulary/preservation/relationshipSubType/isr">is represented by</premis:relationshipSubType>
             <premis:relatedObjectIdentifier>
                 <premis:relatedObjectIdentifierType>UUID</premis:relatedObjectIdentifierType>
-                <premis:relatedObjectIdentifierValue>TODO</premis:relatedObjectIdentifierValue>
+                <premis:relatedObjectIdentifierValue>e16f71e1-33ac-4c47-92ca-6d3561a8735d</premis:relatedObjectIdentifierValue>
             </premis:relatedObjectIdentifier>        
         </premis:relationship>
     </premis:object>
