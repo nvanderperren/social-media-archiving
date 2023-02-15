@@ -15,7 +15,7 @@ output_dir = argv[2]
 load_dotenv()
 cookies = os.getenv('COOKIES')
 QID_key = 'QID'
-facebook_key = 'Facebook_ID'
+facebook_key = 'facebook'
 
 def facebook_scrape(facebook_id, output):
     #output folder
@@ -60,6 +60,7 @@ def start():
             if not facebook == '':
                 folder = row[QID_key]
                 create_folder(folder)
+                print("busy with " + row[QID_key])
                 facebook_scrape(facebook, folder)
                 
         input_file.close()
