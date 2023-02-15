@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:dcterms="http://purl.org/dc/terms/" xmlns:edtf="http://id.loc.gov/datatypes/edtf/"
 xsi:schemaLocation="http://purl.org/dc/terms/ https://www.dublincore.org/schemas/xmls/qdc/dcterms.xsd"
 version="1.0">
     <dcterms:identifier>uuid-bd3c9c63-bdba-42d0-b4c9-81f381ae3831</dcterms:identifier>
-    <dcterms:type xsi:type="dcterms:DCMIType">Text</dcterms:type>
-    <dcterms:creator>meemoo, Vlaams Instituut voor het archief</dcterms:creator>
-    <dcterms:temporal xsi:type="dcterms:Period">start="2012-06-14"; end="2020-06-18"</dcterms:temporal>
-    <dcterms:source>https://twitter.com/PACKEDvzw</dcterms:source>
-    <dcterms:identifier xsi:type="dcterms:URI">https://twitter.com/PACKEDvzw</dcterms:identifier>
-    <dcterms:type xsi:type="dcterms:DCMIType">InteractiveResource</dcterms:type>
-    <dcterms:type>https://www.wikidata.org/entity/Q102345381</dcterms:type>
     <dcterms:title xml:lang="nl">Twitter PACKED vzw</dcterms:title>
-    <dcterms:creator>PACKED vzw</dcterms:creator>
+    <dcterms:source>https://twitter.com/PACKEDvzw</dcterms:source>
+    <dcterms:type>https://www.wikidata.org/entity/Q102345381</dcterms:type>
     <dcterms:publisher>Twitter</dcterms:publisher>
-    <dcterms:rights>https://rightsstatements.org/page/InC/1.0/</dcterms:rights>
+    <dcterms:creator>PACKED vzw</dcterms:creator>
     <dcterms:created xsi:type="edtf:EDTF">2012-06-14</dcterms:created>
+    <dcterms:temporal>"2012-06-14/2020-06-18"</dcterms:temporal>
+    <dcterms:subject xml:lang="nl">"digitaal erfgoed"</dcterms:subject>
+    <dcterms:rights>https://rightsstatements.org/page/InC/1.0/</dcterms:rights>
+    <dcterms:rightsHolder>meemoo</dcterms:rightsHolder>
+    <dcterms:language>nl</dcterms:language>
+    <dcterms:language>en</dcterms:language>
 </metadata>
