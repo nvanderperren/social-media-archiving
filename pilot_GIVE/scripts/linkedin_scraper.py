@@ -10,7 +10,7 @@ csv = argv[1]
 folder = argv[2]
 
 filename = 'qid'
-linkedin_key = 'LinkedIn_ID'
+linkedin_key = 'linkedin'
 QID_key = 'QID'
 command = "say Help! Nastasia! Er gaat iets mis! Herstart de linkedin-profile-scraper node app"
 
