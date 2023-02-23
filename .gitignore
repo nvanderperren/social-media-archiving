@@ -13,4 +13,3 @@ crawls/
 */reference_set
 samples/
 *.env
-*data/
