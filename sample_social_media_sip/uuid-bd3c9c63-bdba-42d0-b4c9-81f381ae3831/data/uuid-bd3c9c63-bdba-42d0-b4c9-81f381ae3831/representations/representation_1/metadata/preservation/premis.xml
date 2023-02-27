@@ -47,12 +47,6 @@ https://www.loc.gov/standards/premis/premis.xsd">
             <premis:objectIdentifierValue>e5dba7c8-11b7-40bc-995a-8c74b107e567</premis:objectIdentifierValue>
         </premis:objectIdentifier>
 
-        <premis:preservationLevel>
-            <premis:preservationLevelType>bit preservation</premis:preservationLevelType>
-            <premis:preservationLevelValue>1</premis:preservationLevelValue>
-            <premis:preservationLevelRole>requirement</premis:preservationLevelRole>
-        </premis:preservationLevel>
-
          <premis:objectCharacteristics>
             <premis:fixity>
                 <premis:messageDigestAlgorithm authority="cryptographicHashFunctions" authorityURI="http://id.loc.gov/vocabulary/preservation/cryptographicHashFunctions" 
