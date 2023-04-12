@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<premis:premis version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:premis="http://www.loc.gov/premis/v3" xsi:schemaLocation="http://www.loc.gov/premis/v3 
+https://www.loc.gov/standards/premis/v3/premis-v3-0.xsd">
+    <premis:object xsi:type="premis:representation">
+  
+        <premis:objectIdentifier>
+            <premis:objectIdentifierType>UUID</premis:objectIdentifierType>
+            <premis:objectIdentifierValue>uuid-bd3c9c63-bdba-42d0-b4c9-81f381ae3831</premis:objectIdentifierValue>
+        </premis:objectIdentifier>
+        
+        <!-- relationship with representation 1 -->
+        <premis:relationship>
+            <premis:relationshipType authority="relationshipType" 
+            authorityURI="http://id.loc.gov/vocabulary/preservation/relationshipType" valueURI="http://id.loc.gov/vocabulary/preservation/relationshipType/str"
+            >structural</premis:relationshipType>
+            <premis:relationshipSubType authority="relationshipSubType" authorityURI="http://id.loc.gov/vocabulary/preservation/relationshipSubType" 
+            valueURI="http://id.loc.gov/vocabulary/preservation/relationshipSubType/isr">is represented by</premis:relationshipSubType>
+            <premis:relatedObjectIdentifier>
+                <premis:relatedObjectIdentifierType>UUID</premis:relatedObjectIdentifierType>
+                <premis:relatedObjectIdentifierValue>uuid-e16f71e1-33ac-4c47-92ca-6d3561a8735d</premis:relatedObjectIdentifierValue>
+            </premis:relatedObjectIdentifier>        
+        </premis:relationship>
+    </premis:object>
+
+    <!-- event that created the representation -->
+    <premis:event>
+        <premis:eventIdentifier>
+            <premis:eventIdentifierType>UUID</premis:eventIdentifierType>
+            <premis:eventIdentifierValue>uuid-33411f35-88f9-40fb-807d-c4245f002957</premis:eventIdentifierValue>
+        </premis:eventIdentifier>
+        <premis:eventType>creation</premis:eventType>
+        <premis:eventDateTime>2021-03-25T10:59:32+02:00</premis:eventDateTime>
+        <premis:eventDetailInformation>
+            <premis:eventDetail>captatie van Twitteraccount via snscrape</premis:eventDetail>
+        </premis:eventDetailInformation>
+        <premis:eventOutcomeInformation>
+            <premis:eventOutcome>1</premis:eventOutcome>
+        </premis:eventOutcomeInformation>
+        <premis:linkingAgentIdentifier>
+            <premis:linkingAgentIdentifierType>UUID</premis:linkingAgentIdentifierType>
+            <premis:linkingAgentIdentifierValue>uuid-86d89e58-3a1d-4c68-89a1-43134c37671d</premis:linkingAgentIdentifierValue>
+        </premis:linkingAgentIdentifier>
+        <premis:linkingObjectIdentifier>
+            <premis:linkingObjectIdentifierType>UUID</premis:linkingObjectIdentifierType>
+            <premis:linkingObjectIdentifierValue>uuid-bd3c9c63-bdba-42d0-b4c9-81f381ae3831</premis:linkingObjectIdentifierValue>
+            <premis:linkingObjectRole>source</premis:linkingObjectRole>
+        </premis:linkingObjectIdentifier>
+        <premis:linkingObjectIdentifier>
+            <premis:linkingObjectIdentifierType>UUID</premis:linkingObjectIdentifierType>
+            <premis:linkingObjectIdentifierValue>uuid-e16f71e1-33ac-4c47-92ca-6d3561a8735d</premis:linkingObjectIdentifierValue>
+            <premis:linkingObjectRole>outcome</premis:linkingObjectRole>
+        </premis:linkingObjectIdentifier>
+    </premis:event>
+
+    <!-- agent that created the representation -->
+    <premis:agent>
+        <premis:agentIdentifier>
+            <premis:agentIdentifierType>UUID</premis:agentIdentifierType>
+            <premis:agentIdentifierValue>uuid-86d89e58-3a1d-4c68-89a1-43134c37671d</premis:agentIdentifierValue>
+        </premis:agentIdentifier>
+        <premis:agentName>snscrape</premis:agentName>
+        <premis:agentType>software</premis:agentType>
+    </premis:agent>
+
+    <!-- rights information -->
+    <premis:rights>
+        <premis:rightsStatement>
+            <premis:rightsStatementIdentifier>
+                <premis:rightsStatementIdentifierType>UUID</premis:rightsStatementIdentifierType>
+                <premis:rightsStatementIdentifierValue>uuid-8ae76973-ba64-4945-8985-87940bdf7b93</premis:rightsStatementIdentifierValue>
+            </premis:rightsStatementIdentifier>
+            <premis:rightsBasis>license</premis:rightsBasis>
+            <premis:licenseInformation>
+                <premis:licenseDocumentationIdentifier>
+                    <premis:licenseDocumentationIdentifierType>Uniform resource identifier</premis:licenseDocumentationIdentifierType>
+                    <premis:licenseDocumentationIdentifierValue>https://creativecommons.org/licenses/by/4.0/</premis:licenseDocumentationIdentifierValue>
+                </premis:licenseDocumentationIdentifier>
+                <premis:licenseTerms>Attribution 4.0 International (CC BY 4.0) </premis:licenseTerms>
+            </premis:licenseInformation>
+            <premis:rightsGranted>
+                <premis:act>displaying</premis:act>
+            </premis:rightsGranted>
+            <premis:linkingObjectIdentifier>
+                <premis:linkingObjectIdentifierType>UUID</premis:linkingObjectIdentifierType>
+                <premis:linkingObjectIdentifierValue>uuid-bd3c9c63-bdba-42d0-b4c9-81f381ae3831</premis:linkingObjectIdentifierValue>
+            </premis:linkingObjectIdentifier>
+        </premis:rightsStatement>  
+    </premis:rights>
+
+</premis:premis>

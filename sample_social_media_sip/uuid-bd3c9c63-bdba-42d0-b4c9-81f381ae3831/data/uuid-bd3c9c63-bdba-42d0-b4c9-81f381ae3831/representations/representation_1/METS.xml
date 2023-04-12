@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns:xlink="http://www.w3.org/1999/xlink"  xmlns:csip="https://dilcis.eu/XML/METS/CSIPExtensionMETS" 
+xsi:schemaLocation="https://www.w3.org./1999/xlink http://www.loc.gov/standards/xlink/xlink.xsd 
+http://www.loc.gov/METS/ https://www.loc.gov/standards/mets/mets.xsd
+https://dilcis.eu/XML/METS/CSIPExtensionMETS https://earkcsip.dilcis.eu/schema/DILCISExtensionMETS.xsd"
+PROFILE="https://earksip.dilcis.eu/profile/E-ARK-CSIP.xml"
+TYPE="OTHER" csip:OTHERTYPE="TEXT SCRAPE" OBJID="representation_1" csip:CONTENTINFORMATIONTYPE="MIXED">
+    
+    <mets:metsHdr CREATEDATE="2021-01-17T10:59:32" csip:OAISPACKAGETYPE="SIP" />
+
+    <mets:amdSec ID="uuid-edc6ad92-2413-4c78-8097-e3b1225e55f0">
+        <mets:digiprovMD ID="uuid-c1f2c0e2-065d-4a6e-b034-6a4850db2894" STATUS="CURRENT">
+            <mets:mdRef LOCTYPE="URL" xlink:type="simple" xlink:href="./metadata/preservation/premis.xml" 
+            MDTYPE="PREMIS" MIMETYPE="application/xml" SIZE="2930"
+            CREATED="2022-10-28T12:24:07" CHECKSUM="3c58290e510d6e5714a48bb6818cc61d"
+            CHECKSUMTYPE="MD5"/>
+        </mets:digiprovMD>
+    </mets:amdSec>
+
+    <mets:fileSec ID="uuid-6ac0a3ff-a207-4621-9d67-d14997b74e86">
+        <mets:fileGrp ID="uuid-d2ab635b-8584-4132-974f-2bad326e1338" USE="Representations">
+            <mets:file ID="uuid-2df5b441-d8e0-45f9-87ea-e0580360292a" MIMETYPE="application/jsonlines" SIZE="2859318" CREATED="2021-03-25T08:23:00" 
+            CHECKSUM="038b8ee3495eeeff908bf755eea419ed" CHECKSUMTYPE="MD5">
+                <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="./data/20210325_twitter_packed_snscrape.jsonl" />
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp ID="uuid-34b3ec93-b3f0-4d60-8635-f24149e9946e" USE="Documentation">
+            <mets:file ID="uuid-8183de9d-5d6e-4ce4-b870-acbce1016a58" MIMETYPE="text/yaml" SIZE="855" CREATED="2021-03-25T08:23:00" CHECKSUM="02c29fef3a0a86e8a27ecd3268a557f3" 
+            CHECKSUMTYPE="MD5">
+                <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="./documentation/config.yml" />
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    
+    <mets:structMap ID="uuid-17f820ef-de9b-4f4d-a134-ad2d022480e3" TYPE="PHYSICAL" LABEL="CSIP">
+        <mets:div ID="uuid-eedc92a4-85e0-478b-938a-a159c50e3147" LABEL="representation_1">
+            <mets:div ID="uuid-249677d3-2f4c-4a5a-bbe4-13adabe978ac" LABEL="Metadata" ADMID="uuid-c1f2c0e2-065d-4a6e-b034-6a4850db2894" />
+            <mets:div ID="uuid-12dbe67f-0b1f-47d3-93a6-7147a1b6225d" LABEL="Documentation">
+                <mets:fptr FILEID="uuid-8183de9d-5d6e-4ce4-b870-acbce1016a58" />
+            </mets:div>
+            <mets:div ID="uuid-3d71327e-1c11-45ff-9761-9e5a0018fa99" LABEL="Representations">
+                <mets:fptr FILEID="uuid-2df5b441-d8e0-45f9-87ea-e0580360292a" />
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

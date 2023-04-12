@@ -2,7 +2,8 @@
 *.jsonl
 cookies
 *.txt
-*.json*
+!sample_social_media_sip/uuid-bd3c9c63-bdba-42d0-b4c9-81f381ae3831/*.txt
+*.json
 *prod*
 warcs/
 *MacBook-Pr*

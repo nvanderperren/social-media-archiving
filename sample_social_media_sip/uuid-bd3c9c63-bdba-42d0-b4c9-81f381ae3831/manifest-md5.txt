@@ -1,0 +1,10 @@
+7cb0edfcba877a10170214f4f97d0319    ./bagit.txt
+5d2ffdd156da2ed49c2e7589b302c04b    ./manifest-md5.txt
+02c29fef3a0a86e8a27ecd3268a557f3    ./data//uuid-bd3c9c63-bdba-42d0-b4c9-81f381ae3831/representations/representation_1/documentation/config.yml
+485ed1e12913fc7808d229d58b434d65    ./data/uuid-bd3c9c63-bdba-42d0-b4c9-81f381ae3831/representations/representation_1/METS.xml
+038b8ee3495eeeff908bf755eea419ed    ./data/uuid-bd3c9c63-bdba-42d0-b4c9-81f381ae3831/representations/representation_1/data/20210325_twitter_packed_snscrape.jsonl 
+87f1459a5b671e2a1c60c438cec0a23f    ./data/uuid-bd3c9c63-bdba-42d0-b4c9-81f381ae3831/representations/representation_1/metadata/preservation/premis.xml 
+2ee4da38c93ca71c85e520dfcd63233d    ./data/uuid-bd3c9c63-bdba-42d0-b4c9-81f381ae3831/METS.xml 
+17147fd6ddac3eb0cfdf26d5c2a249a3    ./data/uuid-bd3c9c63-bdba-42d0-b4c9-81f381ae3831/metadata/preservation/premis.xml 
+d81c22223a5c2984f6773580e01595ed    ./data/uuid-bd3c9c63-bdba-42d0-b4c9-81f381ae3831/metadata/descriptive/account-dc.xml 
+072889004a64a38b2c667b36e140a38b    ./data/uuid-bd3c9c63-bdba-42d0-b4c9-81f381ae3831/metadata/descriptive/stream-dc.xml 
