@@ -38,7 +38,7 @@ voorlopig is het ook een zelfverzonnen URL gebaseerd op de gepubliceerde profile
         </mets:agent>
     </mets:metsHdr>
     
-    <mets:dmdSec ID="ccbd06df-fb89-4df8-aec9-5e255ddc06cf" CREATED="2023-02-15T16:09:20" STATUS="CURRENT">
+    <mets:dmdSec ID="uuid-ccbd06df-fb89-4df8-aec9-5e255ddc06cf" CREATED="2023-02-15T16:09:20" STATUS="CURRENT">
         <mets:mdRef LOCTYPE="URL" xlink:type="simple" xlink:href="./metadata/descriptive/dc.xml"
         MDTYPE="DC" MIMETYPE="application/xml" SIZE="1169" CREATED="2023-02-15T15:33:32" CHECKSUM="fed365cb36ac8cce9b9a027f7c96a273"
         CHECKSUMTYPE="MD5" />
@@ -60,14 +60,12 @@ voorlopig is het ook een zelfverzonnen URL gebaseerd op de gepubliceerde profile
                 <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="./representations/representation_1/METS.xml" />
             </mets:file>
         </mets:fileGrp>
-        <mets:fileGrp ID="uuid-40ad61d6-cc69-40d5-b1d4-6081f3ded392" USE="Documentation" />
-        <mets:fileGrp ID="uuid-3eab1d4d-d2ee-4d61-9b42-30ea7ba772d3" USE="Schemas" />
     </mets:fileSec>
     
     <mets:structMap ID="uuid-0a82fb06-5475-46c2-b041-be220edc3d42" TYPE="PHYSICAL" LABEL="CSIP">
         <mets:div ID="uuid-b739018c-742a-42f8-8aec-60583321f507">
             <mets:div ID="uuid-1f9bedb1-9408-4534-965c-e00d0826f45d" LABEL="Metadata" ADMID="uuid-5e3efa30-21ea-474c-a63c-730ad11cba68" 
-            DMDID="ccbd06df-fb89-4df8-aec9-5e255ddc06cf" />
+            DMDID="uuid-ccbd06df-fb89-4df8-aec9-5e255ddc06cf" />
             <mets:div ID="uuid-fe4eec1f-0b39-431e-bd1a-35eacc24fe38" LABEL="Representations/representation_1">
                 <mets:mptr LOCTYPE="URL" xlink:type="simple" xlink:href="./representations/representation_1/METS.xml" xlink:title="uuid-37c665e2-960b-4486-8729-89ae68227c10" />
             </mets:div>

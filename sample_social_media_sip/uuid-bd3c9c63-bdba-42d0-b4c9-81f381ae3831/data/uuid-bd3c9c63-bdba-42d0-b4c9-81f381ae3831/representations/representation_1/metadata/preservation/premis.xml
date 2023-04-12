@@ -2,7 +2,6 @@
 <premis:premis version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 xmlns:premis="http://www.loc.gov/premis/v3" xsi:schemaLocation="http://www.loc.gov/premis/v3 
 https://www.loc.gov/standards/premis/premis.xsd">
-<!-- de meemoo sip neemt geen schema's op, dus het relatieve referencing moet nog aangepast worden -->
 
     <premis:object xsi:type="premis:representation">
 
@@ -10,7 +9,7 @@ https://www.loc.gov/standards/premis/premis.xsd">
 
         <premis:objectIdentifier>
             <premis:objectIdentifierType>UUID</premis:objectIdentifierType>
-            <premis:objectIdentifierValue>e16f71e1-33ac-4c47-92ca-6d3561a8735d</premis:objectIdentifierValue>
+            <premis:objectIdentifierValue>uuid-e16f71e1-33ac-4c47-92ca-6d3561a8735d</premis:objectIdentifierValue>
         </premis:objectIdentifier>
 
         <!-- relationship representation and file -->
@@ -22,7 +21,7 @@ https://www.loc.gov/standards/premis/premis.xsd">
             valueURI="http://id.loc.gov/vocabulary/preservation/relationshipSubType/inc">includes</premis:relationshipSubType>
             <premis:relatedObjectIdentifier>
                 <premis:relatedObjectIdentifierType>UUID</premis:relatedObjectIdentifierType>
-                <premis:relatedObjectIdentifierValue>e5dba7c8-11b7-40bc-995a-8c74b107e567</premis:relatedObjectIdentifierValue>
+                <premis:relatedObjectIdentifierValue>uuid-e5dba7c8-11b7-40bc-995a-8c74b107e567</premis:relatedObjectIdentifierValue>
             </premis:relatedObjectIdentifier>
         </premis:relationship>
 
@@ -35,7 +34,7 @@ https://www.loc.gov/standards/premis/premis.xsd">
             valueURI="http://id.loc.gov/vocabulary/preservation/relationshipSubType/rep">represents</premis:relationshipSubType>
             <premis:relatedObjectIdentifier>
                 <premis:relatedObjectIdentifierType>UUID</premis:relatedObjectIdentifierType>
-                <premis:relatedObjectIdentifierValue>bd3c9c63-bdba-42d0-b4c9-81f381ae3831</premis:relatedObjectIdentifierValue>
+                <premis:relatedObjectIdentifierValue>uuid-bd3c9c63-bdba-42d0-b4c9-81f381ae3831</premis:relatedObjectIdentifierValue>
             </premis:relatedObjectIdentifier>
         </premis:relationship>
     </premis:object>
@@ -44,7 +43,7 @@ https://www.loc.gov/standards/premis/premis.xsd">
     <premis:object xsi:type="premis:file">
         <premis:objectIdentifier>
             <premis:objectIdentifierType>UUID</premis:objectIdentifierType>
-            <premis:objectIdentifierValue>e5dba7c8-11b7-40bc-995a-8c74b107e567</premis:objectIdentifierValue>
+            <premis:objectIdentifierValue>uuid-e5dba7c8-11b7-40bc-995a-8c74b107e567</premis:objectIdentifierValue>
         </premis:objectIdentifier>
 
          <premis:objectCharacteristics>
@@ -55,6 +54,9 @@ https://www.loc.gov/standards/premis/premis.xsd">
             </premis:fixity>
             <premis:size>2859318</premis:size>
             <premis:format>
+                <premis:formatDesignation>
+                    <premis:formatName>Plain Text File</premis:formatName>
+                </premis:formatDesignation>
                 <premis:formatRegistry>
                     <premis:formatRegistryName>PRONOM</premis:formatRegistryName>
                     <premis:formatRegistryKey>x-fmt/111</premis:formatRegistryKey>
@@ -75,43 +77,10 @@ https://www.loc.gov/standards/premis/premis.xsd">
             valueURI="http://id.loc.gov/vocabulary/preservation/relationshipSubType/isi">is included in</premis:relationshipSubType>
             <premis:relatedObjectIdentifier>
                 <premis:relatedObjectIdentifierType>UUID</premis:relatedObjectIdentifierType>
-                <premis:relatedObjectIdentifierValue>E16F71E1-33AC-4C47-92CA-6D3561A8735D</premis:relatedObjectIdentifierValue>
+                <premis:relatedObjectIdentifierValue>uuid-e16f71e1-33ac-4c47-92ca-6d3561a8735d</premis:relatedObjectIdentifierValue>
             </premis:relatedObjectIdentifier>
         </premis:relationship>
-
     
     </premis:object>
-
-    <premis:event>
-        <premis:eventIdentifier>
-            <premis:eventIdentifierType>UUID</premis:eventIdentifierType>
-            <premis:eventIdentifierValue>33411f35-88f9-40fb-807d-c4245f002957</premis:eventIdentifierValue>
-        </premis:eventIdentifier>
-        <premis:eventType>creation</premis:eventType>
-        <premis:eventDateTime>2021-03-25T10:59:32+02:00</premis:eventDateTime>
-        <premis:eventDetailInformation>
-            <premis:eventDetail>captatie van Twitteraccount via snscrape</premis:eventDetail>
-        </premis:eventDetailInformation>
-        <premis:eventOutcomeInformation>
-            <premis:eventOutcome>1</premis:eventOutcome>
-        </premis:eventOutcomeInformation>
-        <premis:linkingAgentIdentifier>
-            <premis:linkingAgentIdentifierType>UUID</premis:linkingAgentIdentifierType>
-            <premis:linkingAgentIdentifierValue>86d89e58-3a1d-4c68-89a1-43134c37671d</premis:linkingAgentIdentifierValue>
-        </premis:linkingAgentIdentifier>
-        <premis:linkingObjectIdentifier>
-            <premis:linkingObjectIdentifierType>UUID</premis:linkingObjectIdentifierType>
-            <premis:linkingObjectIdentifierValue>e5dba7c8-11b7-40bc-995a-8c74b107e567</premis:linkingObjectIdentifierValue>
-        </premis:linkingObjectIdentifier>
-    </premis:event>
-
-    <premis:agent>
-        <premis:agentIdentifier>
-            <premis:agentIdentifierType>UUID</premis:agentIdentifierType>
-            <premis:agentIdentifierValue>86d89e58-3a1d-4c68-89a1-43134c37671d</premis:agentIdentifierValue>
-        </premis:agentIdentifier>
-        <premis:agentName>snscrape</premis:agentName>
-        <premis:agentType>software</premis:agentType>
-    </premis:agent>
 
 </premis:premis>

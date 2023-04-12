@@ -31,7 +31,6 @@ TYPE="OTHER" csip:OTHERTYPE="TEXT SCRAPE" OBJID="representation_1" csip:CONTENTI
                 <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="./documentation/config.yml" />
             </mets:file>
         </mets:fileGrp>
-        <mets:fileGrp ID="uuid-96bc16d4-803d-4628-8400-57dfa9bfe5e1" USE="Schemas"/>
     </mets:fileSec>
     
     <mets:structMap ID="uuid-17f820ef-de9b-4f4d-a134-ad2d022480e3" TYPE="PHYSICAL" LABEL="CSIP">

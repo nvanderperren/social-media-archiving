@@ -9,7 +9,8 @@ version="1.0">
     <dcterms:type>https://www.wikidata.org/entity/Q102345381</dcterms:type>
     <dcterms:publisher>Twitter</dcterms:publisher>
     <dcterms:creator>PACKED vzw</dcterms:creator>
-    <dcterms:created xsi:type="edtf:EDTF">2012-06-14</dcterms:created>
+    <dcterms:creator>meemoo</dcterms:creator>
+    <dcterms:created xsi:type="edtf:EDTF-level0">2012-06-14</dcterms:created>
     <dcterms:temporal>"2012-06-14/2020-06-18"</dcterms:temporal>
     <dcterms:subject xml:lang="nl">"digitaal erfgoed"</dcterms:subject>
     <dcterms:rights>https://rightsstatements.org/page/InC/1.0/</dcterms:rights>
