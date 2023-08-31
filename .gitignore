@@ -14,4 +14,5 @@ crawls/
 */reference_set
 samples/
 *.env
+sessiefile
 *data/
